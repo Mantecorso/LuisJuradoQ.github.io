@@ -2,29 +2,27 @@ body{
     width: 1800px;
     height: 1200px;
     background-color: deeppink;
-    list-style: none;
 }
 
 header{
-    width: 525px;
+    width: 600px;
     height: 150px;
-    padding-left: 75px;
     padding-top: 25px;
     background-color: yellowgreen;
     border: 5px;
     border-color: gold;
     border-radius: 90px;
-    list-style: none;
+    text-align: center;
 }
 
 a:hover{
     cursor: pointer;
     background-color: darkorange;
-    list-style: none;
+    opacity: 0.7;
 }
 
 header a{
-    list-style: none;
+    text-decoration: none;
     color: black;
 }
 
@@ -54,18 +52,17 @@ footer{
     width: 800px;
     height: 100px;
     background-color:coral;
-    list-style: none;
-    
+    list-style: none;  
 }
 
 footer a{
     list-style: none;
     color: wheat;
+    text-decoration: none;
 }
 
 #ul li a{
     list-style: none;
-    display: inline-block;
 }
 
 #ul li{
