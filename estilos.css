@@ -21,11 +21,11 @@ a:hover {
 
 section a {
     text-decoration: none;
-    color: black;
+    color: wheat;
 }
 
 section {
-    width: 500px;
+    width: 600px;
     height: 280px;
     padding-left: 200px;
     padding-top: 5px;
@@ -34,21 +34,19 @@ section {
     padding-bottom: 50px;
 }
 
-article {}
-
+section p{
+    font-size: 24px;
+}
 section img {
-    /*width: 400px;
-    height: 600px;*/
     border-radius: 18px;
     border-color: black 2px;
     flex: 1;
-    padding-left: 400px;
+    padding-left: 500px;
 }
 
 footer {
     width: 900px;
     height: 70px;
-    /*padding-left: 100px;*/
     margin-left: 100px;
     background-color: darkmagenta;
     border-radius: 90px;
@@ -65,7 +63,8 @@ footer ul {
 }
 
 footer ul li {
-    border-right: 4px solid#a3a3a3;
+    /*border-right: 4px solid#a3a3a3;*/
+    /*border-left: 4px solid#a3a3a3;*/
     text-align: center;
     flex: 1;
 }
