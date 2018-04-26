@@ -29,7 +29,7 @@ footer {
 
 body,
 html {
-    font-family: ;
+    font-family: font-family: 'Lemonada', cursive;
     font-size: calc(13px+1vw);
 }
 
@@ -58,7 +58,7 @@ footer a {
 section a {
     font-weight: 700;
     text-decoration: none;
-    color: wheat;
+    color: black;
 }
 
 body {
