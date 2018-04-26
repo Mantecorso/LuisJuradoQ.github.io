@@ -28,3 +28,40 @@ footer {
 .container {
     padding: 2em;
 }
+
+
+body, html{
+    font-family: ;
+    font-size: calc(13px+1vw);
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+p{
+    font-weight: 400;
+}
+
+footer a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    padding: 1vh;
+    
+}
+
+section a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+
+
