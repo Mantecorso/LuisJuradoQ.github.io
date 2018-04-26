@@ -1,6 +1,5 @@
 section {
     height: 80vh;
-    background-color: aqua;
     overflow: hidden;
 }
 
@@ -20,7 +19,6 @@ p {
 
 footer {
     height: 20vh;
-    background-color: darkmagenta;
     overflow: hidden;
     text-align: center;
 }
@@ -29,39 +27,69 @@ footer {
     padding: 2em;
 }
 
-
-body, html{
+body,
+html {
     font-family: ;
     font-size: calc(13px+1vw);
 }
 
-h1{
+h1 {
     font-weight: 700;
     font-size: 2rem;
 }
 
-h2{
+h2 {
     font-weight: 700;
     font-size: 2rem;
 }
 
-p{
+p {
     font-weight: 400;
 }
 
-footer a{
+footer a {
     font-weight: 700;
+    font-size: 2rem;
     text-decoration: none;
-    color: black;
+    color: wheat;
     padding: 1vh;
-    
 }
 
-section a{
+section a {
     font-weight: 700;
     text-decoration: none;
-    color: black;
+    color: wheat;
 }
 
+body {
+    background-color: #b38194;
+}
 
+section {
+    background-color: #0fff95;
+    border-radius: 90px;
+}
 
+footer {
+    background-color: #06ba63;
+    border-radius: 90px;
+}
+
+section a {
+    border-radius: 90px;
+}
+
+footer a {
+    border-radius: 90px;
+}
+
+#logos {
+    text-align: center;
+    padding-top: 25px;
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: #103900;
+    opacity: 0.7;
+}
