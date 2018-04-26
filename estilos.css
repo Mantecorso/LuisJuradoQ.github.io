@@ -1,75 +1,30 @@
-body {
-    margin: 73px;
-    background-color: blueviolet;
+section {
+    height: 80vh;
+    background-color: aqua;
+    overflow: hidden;
 }
 
-header {
-    width: 500px;
-    height: 50px;
-    margin-left: 100px;
-    background-color: gainsboro;
-    border-color: 5px gold;
-    border-radius: 90px;
+h1 {
+    margin: 0;
     text-align: center;
 }
 
-a:hover {
-    cursor: pointer;
-    background-color: cornflowerblue;
-    opacity: 0.7;
+h2 {
+    margin: 0;
+    text-align: center;
 }
 
-section a {
-    text-decoration: none;
-    color: wheat;
-}
-
-section {
-    width: 600px;
-    height: 280px;
-    padding-left: 200px;
-    padding-top: 5px;
-    margin-top: 25px;
-    display: flex;
-    padding-bottom: 50px;
-}
-
-section p{
-    font-size: 24px;
-}
-section img {
-    border-radius: 18px;
-    border-color: black 2px;
-    flex: 1;
-    padding-left: 500px;
+p {
+    text-align: center;
 }
 
 footer {
-    width: 900px;
-    height: 70px;
-    margin-left: 100px;
+    height: 20vh;
     background-color: darkmagenta;
-    border-radius: 90px;
-}
-
-footer a {
-    color: wheat;
-    text-decoration: none;
-}
-
-footer ul {
-    list-style: none;
-    display: flex;
-}
-
-footer ul li {
-    /*border-right: 4px solid#a3a3a3;*/
-    /*border-left: 4px solid#a3a3a3;*/
+    overflow: hidden;
     text-align: center;
-    flex: 1;
 }
 
-footer ul li a {
-    display: block;
-    padding: 25px;
+.container {
+    padding: 2em;
 }
