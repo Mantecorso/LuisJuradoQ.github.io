@@ -1,15 +1,19 @@
 section {
     height: 80vh;
     overflow: hidden;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 h1 {
     margin: 0;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 h2 {
     margin: 0;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -20,16 +24,18 @@ p {
 footer {
     height: 20vh;
     overflow: hidden;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
 }
 
 .container {
-    padding: 2em;
+    padding: 3em;
 }
 
 body,
 html {
-    font-family: font-family: 'Lemonada', cursive;
+    font-family: 'Lemonada', cursive;
     font-size: calc(13px+1vw);
 }
 
@@ -40,16 +46,17 @@ h1 {
 
 h2 {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 p {
     font-weight: 400;
+    font-size: 1rem;
 }
 
 footer a {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1rem;
     text-decoration: none;
     color: wheat;
     padding: 1vh;
@@ -57,8 +64,9 @@ footer a {
 
 section a {
     font-weight: 700;
+    font-size: 2rem;
     text-decoration: none;
-    color: black;
+    color: #b38194;
 }
 
 body {
