@@ -1,8 +1,7 @@
 section {
     height: 80vh;
     overflow: hidden;
-    margin-left: 15%;
-    margin-right: 15%;
+    text-align: center;
 }
 
 h1 {
@@ -24,8 +23,6 @@ p {
 footer {
     height: 20vh;
     overflow: hidden;
-    margin-left: 15%;
-    margin-right: 15%;
     text-align: center;
 }
 
@@ -37,6 +34,11 @@ body,
 html {
     font-family: 'Lemonada', cursive;
     font-size: calc(13px+1vw);
+}
+
+html {
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 h1 {
@@ -85,15 +87,23 @@ footer {
 
 section a {
     border-radius: 90px;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 footer a {
     border-radius: 90px;
+    padding: 1em;
 }
 
 #logos {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 25px; 
+}
+
+#logos img {
+	width: 80px;
+    height: 80px;
 }
 
 a:hover {
