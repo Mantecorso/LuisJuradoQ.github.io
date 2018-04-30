@@ -16,6 +16,11 @@ h2 {
     text-align: center;
 }
 
+h1 img{
+    width: 80px;
+    height: 80px;
+}
+
 p {
     text-align: center;
 }
@@ -60,7 +65,7 @@ footer a {
     font-weight: 700;
     font-size: 1rem;
     text-decoration: none;
-    color: wheat;
+    color: #12130f;
     padding: 1vh;
 }
 
@@ -68,24 +73,24 @@ section a {
     font-weight: 700;
     font-size: 2rem;
     text-decoration: none;
-    color: #b38194;
+    color: #12130f;
 }
 
 body {
-    background-color: #b38194;
+    background-color: #8f8073;
 }
 
 section {
-    background-color: #0fff95;
+    background-color: #8fcb9b;
     border-radius: 90px;
 }
 
 footer {
-    background-color: #06ba63;
+    background-color: #5b9279;
     border-radius: 90px;
 }
 
-section a {
+h2 a {
     border-radius: 90px;
     padding-right: 1em;
     padding-left: 1em;
@@ -98,16 +103,16 @@ footer a {
 
 #logos {
     text-align: center;
-    padding-top: 25px; 
+    padding-top: 25px;
 }
 
 #logos img {
-	width: 80px;
+    width: 80px;
     height: 80px;
 }
 
 a:hover {
     cursor: pointer;
-    background-color: #103900;
+    background-color: #eae6e5;
     opacity: 0.7;
 }
