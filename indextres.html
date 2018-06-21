@@ -17,7 +17,16 @@
     <header>
         <img src="images/Copy of L (12).png" alt="logo" id="logo">
     </header>
-    <section class="Gridcontainer">    
+    <section>  
+        <div class="bigGrid">
+            <div></div>
+            <div draggable="true" ondragstart="onDragStart(event)" id="1"></div>
+            <div ondragover="allowDrop(event)" ondrop="onDrop(event)" class="bigcontainer"></div>
+            <div ondragover="allowDrop(event)" ondrop="onDrop(event)" class="bigcontainer"></div>
+            <div ondragover="allowDrop(event)" ondrop="onDrop(event)" class="bigcontainer"></div>
+            <div></div>
+        </div> 
+        <div class="Gridcontainer">
        <div class="Grid"></div>
        <div class="Grid"></div>
        <div class="Grid"></div>
@@ -33,6 +42,7 @@
        <div class="Grid"></div>
        <div class="Grid"></div>
        <div class="Grid"></div>
+    </div> 
     </section>
 
     <footer>
@@ -46,6 +56,35 @@
                 <div class="Grid"></div>   
         </div>
     </footer>
+    <script src="main.js"></script>
+    <!-- JS para utilizar el grag and drop
+
+        function onDrop(ev){
+    console.log('ondrop')
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+  }
+  
+  function allowDrop(ev) {
+      ev.preventDefault();
+  }
+  
+  function onDragStart(ev) {
+    ev.dataTransfer.setData("text", ev.target.id); // guardamos los datos de la imagen en el evento que mas tarde vamos a pasar a onDrop (el ID en este caso)
+  }
+  
+    no poner prevent default en ondragstart ya que bloque el evento y no arrastra nada -->
+
+
+    <!-- Usos principales del Drag and drop 
+
+    draggable="true" ondragstart="onDragStart(event)" id=""
+ ondragover="allowDrop(event)" ondrop="onDrop(event)" 
+
+parte superior para los div que movemos, parte inferior los div que reciben -->
+
+<!-- el objeto dradable debe tener un id. el id debe ser siempre unico!!!-->
 </body>
 
 </html>
