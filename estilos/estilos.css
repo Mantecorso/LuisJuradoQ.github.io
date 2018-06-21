@@ -1,5 +1,5 @@
 section {
-    height: 80vh;
+    height: 85vh;
     overflow: hidden;
     text-align: center;
 }
@@ -26,7 +26,7 @@ p {
 }
 
 footer {
-    height: 20vh;
+    height: 15vh;
     overflow: hidden;
     text-align: center;
 }

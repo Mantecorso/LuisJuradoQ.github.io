@@ -1,0 +1,25 @@
+{
+    "name": "luisju-web",
+    "version": "1.0.0",
+    "description": "web personal",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "live-server",
+        "Deploy": "git push origin master",
+        "Toteacher": "git push assigment master"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mantecorso/LuisJuradoQ.git"
+    },
+    "author": "Luis Jurado Quesada",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Mantecorso/LuisJuradoQ/issues"
+    },
+    "homepage": "https://github.com/Mantecorso/LuisJuradoQ#readme",
+    "devDependencies": {
+        "live-server": "^1.2.0"
+    }
+}

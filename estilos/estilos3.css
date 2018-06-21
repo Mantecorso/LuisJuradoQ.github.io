@@ -1,0 +1,123 @@
+header {
+    height: 13vh;
+    text-align: center;
+}
+
+section {
+    height: 75vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer {
+    height: 12vh;
+    text-align: center;
+    padding-top: 25px;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+body,
+html {
+    font-family: 'Lemonada', cursive;
+    font-size: calc(13px+1vw);
+}
+
+html {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+    grid-gap: 15px;
+    grid-template-rows: 3fr 2fr 3fr;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-gap: 15px;
+}
+
+body {
+    background-color: #5c615e;
+}
+
+#uno {
+    background-color: #62bfed;
+    padding-top: 44px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#dos {
+    background-color: #8fb8ed;
+    padding-top: 44px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#tres {
+    background-color: #c2bbf0;
+    padding-top: 44px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+section a {
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    color:  #f1e3f3;
+    padding: 2vh;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+section a:hover {
+    cursor: pointer;
+    background-color: #3590f3;
+    opacity: 0.7;
+}
+
+footer a {
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #12130f;
+    padding: 2vh;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#a22 a:hover {
+    cursor: pointer;
+    background-color: #d98324;
+    color: #f1e3f3;
+}
+
+#a23 a:hover {
+    cursor: pointer;
+    background-color: #a40606;
+    color: #f1e3f3;
+}
+#a24 a:hover {
+    cursor: pointer;
+    background-color: #5a0002;
+    color: #f1e3f3;
+}
+#a21 a:hover {
+    cursor: pointer;
+    background-color: #d7cf07;
+    
+}
+#a20 a:hover {
+    cursor: pointer;
+    background-color: #230007;
+    color: #f1e3f3;
+}
