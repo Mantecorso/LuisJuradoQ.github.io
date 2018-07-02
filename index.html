@@ -7,17 +7,59 @@
     <meta description="Curriculum">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="luis jurado quesada web developer programador web">
+    <meta name="keywords" content="luis, jurado, quesada, web, developer, programador, angular, HTLM, CSS, Javascript, JS, XML, Bases de datos, Mysql, SQL, nodejs">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Luis Jurado Quesada</title>
     <link rel="stylesheet" href="estilos/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
     <link rel="stylesheet" href="estilos/estilos.css">
+    <script type="text/javascript">
+        segundos = 0;
+        function cambiafondo()
+        {
+        segundos = segundos + 1;
+        if (segundos == 5)
+        {
+        document.body.style.backgroundImage='';
+        document.body.style.backgroundColor='Red';
+        }
+        else if (segundos == 10)
+        document.body.style.backgroundColor='Green';
+        else if (segundos == 15)
+        document.body.style.backgroundColor='Yellow';
+        else if (segundos == 20)
+        document.body.style.backgroundColor='Blue';
+        else if (segundos == 25)
+        document.body.style.backgroundColor='Cyan';
+        else if (segundos == 30)
+        document.body.style.backgroundColor='Black';
+        else if (segundos == 35)
+        document.body.style.backgroundColor='White';
+        else if (segundos == 40)
+        document.body.style.backgroundColor='#FF3456';
+        else if (segundos == 45)
+        document.body.style.backgroundColor='Black';
+        else if (segundos == 50)
+        {
+        document.body.style.backgroundImage='url(http://tuxlink.files.wordpress.com/2007/10/leopard-server-wallpaper.jpg)';
+        segundos = 0;
+        }
+        }
+        </script>
 </head>
 
-<body>
+<body onload="cambiafondo(); setInterval('cambiafondo()', 100);">
     <section>
         <div class="container">
             <h1>Luis Jurado Quesada</h1>
-            <h1><a href="mailto:luisjuradoquesada@hotmail.com"><img src="images/Copy%20of%20L%20(12).png" alt="Logo personal"></a></h1>
+            <h1>
+                <a href="mailto:luisjuradoquesada@hotmail.com">
+                    <img src="images/Copy%20of%20L%20(12).png" alt="Logo personal">
+                </a>
+            </h1>
+            <h4>Programacion WEB</h4>
 
             <h2>Freelance WEB Developer</h2>
             <p>Do you know the last trend webs? <br>Are you ready for the e-comerce? <br> Are you looking for a profesional WEB developer? <br> Ask to me. <br> </p>
