@@ -13,44 +13,103 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Luis Jurado Quesada</title>
     <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
     <link rel="stylesheet" href="estilos/estilos.css">
     <script type="text/javascript">
         segundos = 0;
-        function cambiafondo()
-        {
-        segundos = segundos + 1;
-        if (segundos == 5)
-        {
-        document.body.style.backgroundImage='';
-        document.body.style.backgroundColor='Red';
+
+        function cambiafondo() {
+            segundos = segundos + 1;
+            if (segundos == 5) {
+                document.body.style.backgroundImage = '';
+                document.body.style.backgroundColor = 'Red';
+            } else if (segundos == 10)
+                document.body.style.backgroundColor = 'Green';
+            else if (segundos == 15)
+                document.body.style.backgroundColor = 'Yellow';
+            else if (segundos == 20)
+                document.body.style.backgroundColor = 'Blue';
+            else if (segundos == 25)
+                document.body.style.backgroundColor = 'Cyan';
+            else if (segundos == 30)
+                document.body.style.backgroundColor = 'Black';
+            else if (segundos == 35)
+                document.body.style.backgroundColor = 'White';
+            else if (segundos == 40)
+                document.body.style.backgroundColor = '#FF3456';
+            else if (segundos == 45)
+                document.body.style.backgroundColor = '#5a0002';
+            else if (segundos == 50)
+                document.body.style.backgroundColor = '#a40606';
+            else if (segundos == 55)
+                document.body.style.backgroundColor = '#d98324';
+            else if (segundos == 60)
+                document.body.style.backgroundColor = '#d7cf07';
+            else if (segundos == 65)
+                document.body.style.backgroundColor = '#230007';
+            else if (segundos == 70)
+                document.body.style.backgroundColor = '#0e273c';
+            else if (segundos == 75)
+                document.body.style.backgroundColor = '#4a306d';
+            else if (segundos == 80) {
+                document.body.style.backgroundImage =
+                    'url(http://tuxlink.files.wordpress.com/2007/10/leopard-server-wallpaper.jpg)';
+                segundos = 0;
+            }
         }
-        else if (segundos == 10)
-        document.body.style.backgroundColor='Green';
-        else if (segundos == 15)
-        document.body.style.backgroundColor='Yellow';
-        else if (segundos == 20)
-        document.body.style.backgroundColor='Blue';
-        else if (segundos == 25)
-        document.body.style.backgroundColor='Cyan';
-        else if (segundos == 30)
-        document.body.style.backgroundColor='Black';
-        else if (segundos == 35)
-        document.body.style.backgroundColor='White';
-        else if (segundos == 40)
-        document.body.style.backgroundColor='#FF3456';
-        else if (segundos == 45)
-        document.body.style.backgroundColor='Black';
-        else if (segundos == 50)
-        {
-        document.body.style.backgroundImage='url(http://tuxlink.files.wordpress.com/2007/10/leopard-server-wallpaper.jpg)';
-        segundos = 0;
-        }
-        }
-        </script>
+    </script>
 </head>
 
 <body onload="cambiafondo(); setInterval('cambiafondo()', 100);">
+    <header>
+        <a href="#" class="btn btn-danger"><img src="images/Copy of L (12).png" alt="logo" id="logo"></a> 
+    </header>
+    <section class="Gridcontainer">
+        <div class="Grid"></div>
+        <div class="Grid"></div>
+        <div class="Grid"></div>
+        <div class="Grid"></div>
+        <div class="Grid"></div>
+        <div class="Grid"></div>
+        <div class="Grid" id="uno">
+            <a href="#">WEB Developer</a>
+        </div>
+        <div class="Grid" id="dos">
+            <a href="#">Let's talk</a>
+        </div>
+        <div class="Grid" id="tres">
+            <a href="#">Last tendences</a>
+        </div>
+        <div class="Grid"></div>
+        <div class="Grid"></div>
+        <div class="Grid"></div>
+        <div class="Grid"></div>
+        <div class="Grid"></div>
+        <div class="Grid"></div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="Grid"></div>
+            <div class="Grid" id="a20">
+                <a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a>
+            </div>
+            <div class="Grid" id="a21">
+                <a href="https://www.instagram.com/luisjuradoquesada/" target="_blank">Instagram</a>
+            </div>
+            <div class="Grid" id="a22">
+                <a href="https://twitter.com/?lang=es" target="_blank">Twitter</a>
+            </div>
+            <div class="Grid" id="a23">
+                <a href="mailto:luisjuradoquesada@hotmail.com">Contact</a>
+            </div>
+            <div class="Grid" id="a24">
+                <a href="https://github.com/Mantecorso" target="_blank">Works</a>
+            </div>
+            <div class="Grid"></div>
+        </div>
+    </footer>
     <section>
         <div class="container">
             <h1>Luis Jurado Quesada</h1>
@@ -59,11 +118,15 @@
                     <img src="images/Copy%20of%20L%20(12).png" alt="Logo personal">
                 </a>
             </h1>
-            <h4>Programacion WEB</h4>
-
             <h2>Freelance WEB Developer</h2>
-            <p>Do you know the last trend webs? <br>Are you ready for the e-comerce? <br> Are you looking for a profesional WEB developer? <br> Ask to me. <br> </p>
-            <h2><a href="mailto:luisjuradoquesada@hotmail.com">Let's talk.</a></h2>
+            <p>Do you know the last trend webs?
+                <br>Are you ready for the e-comerce?
+                <br> Are you looking for a profesional WEB developer?
+                <br> Ask to me.
+                <br> </p>
+            <h2>
+                <a href="mailto:luisjuradoquesada@hotmail.com">Let's talk.</a>
+            </h2>
             <div id="logos">
                 <img src="images/HTML5%20logo.png" alt="Logo HTML">
                 <img src="images/CSS3_logo_and_wordmark.svg.png" alt="Logo CSS">
