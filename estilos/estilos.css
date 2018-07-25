@@ -97,12 +97,12 @@ footer a {
     padding: 1em;
 }
 
-#logos {
+.logos {
     text-align: center;
     padding-top: 25px;
 }
 
-#logos img {
+.logos img {
     width: 80px;
     height: 80px;
 }
@@ -113,7 +113,7 @@ a:hover {
     opacity: 0.7;
 }
 
-.container-fluid {
+.whiste {
     background-color: white;
 }
 
