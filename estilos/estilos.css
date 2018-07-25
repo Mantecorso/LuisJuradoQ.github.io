@@ -108,6 +108,11 @@ a:hover {
     opacity: 0.7;
 }
 
+.sizes {
+    height: 25px;
+    width: 25px;
+}
+
 .whiste {
     background-color: white;
 }
