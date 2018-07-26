@@ -3,7 +3,7 @@ section {
     overflow: hidden;
     text-align: center;
     background: #1c1d26;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 h1 {
@@ -48,14 +48,6 @@ p {
     font-size: 1rem;
 }
 
-footer a {
-    font-weight: 700;
-    font-size: 1rem;
-    text-decoration: none;
-    color: #12130f;
-    padding: 1vh;
-}
-
 section a {
     font-weight: 700;
     font-size: 2rem;
@@ -70,11 +62,15 @@ body {
 section {
     background-color: #8fcb9b;
     border-radius: 90px;
+
 }
 
-footer {
-    background-color: #5b9279;
+.container3 {
+    background-color: #8fcbc1;
     border-radius: 90px;
+    height: 90vh;
+    overflow: hidden;
+    text-align: center;
 }
 
 h2 a {
@@ -83,14 +79,9 @@ h2 a {
     padding-left: 1em;
 }
 
-footer a {
-    border-radius: 90px;
-    padding: 1em;
-}
-
 .logos {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
 }
 
 a:hover {
