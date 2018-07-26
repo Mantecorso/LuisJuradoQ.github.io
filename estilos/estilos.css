@@ -133,7 +133,7 @@ html {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
     grid-gap: 15px;
 }
 
