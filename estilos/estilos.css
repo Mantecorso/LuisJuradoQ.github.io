@@ -1,8 +1,9 @@
 section {
-    height: 99vh;
+    height: 90vh;
     overflow: hidden;
     text-align: center;
     background: #1c1d26;
+    padding-top: 100px;
 }
 
 h1 {
