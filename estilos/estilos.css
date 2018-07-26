@@ -1,5 +1,5 @@
 section {
-    height: 85vh;
+    height: 99vh;
     overflow: hidden;
     text-align: center;
     background: #1c1d26;
@@ -24,16 +24,6 @@ h1 img{
 
 p {
     text-align: center;
-}
-
-footer {
-    height: 15vh;
-    overflow: hidden;
-    text-align: center;
-}
-
-.container3 {
-    padding: 3em;
 }
 
 body,
