@@ -91,6 +91,14 @@ a:hover {
     opacity: 0.7;
 }
 
+.gris {
+    background-color: grey;
+}
+
+.gris:hover {
+    background-color: palevioletred;
+}
+
 .sizes {
     height: 25px;
     width: 25px;
