@@ -242,3 +242,74 @@ body {
     background-color: #230007;
     color: #f1e3f3;
 }
+
+.boton {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(235, 152, 45);
+    border-radius: 81px;
+}
+
+#boton {
+    position: absolute;
+    background-image: url(../images/Brackets_Icon.svg.png);
+    animation-name: bol;
+    animation-duration: 30s;
+    animation-iteration-count:cubic-bezier(.02, .96, .97, .28);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bol {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    10% {
+        left: 400px;
+        top: 0px;
+    }
+    20% {
+        left: 800px;
+        top: 0px;
+    }
+   30% {
+       left: 1200px;
+       top: 0;
+       background-color: red;
+    }
+    40% {
+         top: 250px;
+        left: 1200px;
+        border-radius: 0;
+         background-color: blue;
+    }
+     50% {
+         top: 500px;
+         left: 1200px;
+         background-color: rgb(41, 41, 78);
+    }
+    60% {
+        top: 500px;
+        left: 800px;
+    }
+    70% {
+        top: 500px;
+        left: 400px;
+        background-color: rgb(188, 55, 221);
+   }
+   80% {
+    top: 500px;
+    left: 0px;
+    background-color: rgb(75, 238, 189);
+    }
+    90% {
+        top:250px;
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0;
+         background-color: yellow;
+    }
+}
+
