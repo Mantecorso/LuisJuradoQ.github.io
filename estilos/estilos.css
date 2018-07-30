@@ -255,7 +255,7 @@ body {
     background-image: url(../images/Brackets_Icon.svg.png);
     animation-name: bol;
     animation-duration: 30s;
-    animation-iteration-count:cubic-bezier(.02, .96, .97, .28);
+    animation-iteration-count:cubic-bezier(.12, .56, .47, .28);
     animation-iteration-count: infinite;
 }
 
@@ -265,15 +265,15 @@ body {
         top: 0;
     }
     10% {
-        left: 400px;
+        left: 33%;
         top: 0px;
     }
     20% {
-        left: 800px;
+        left: 66%px;
         top: 0px;
     }
    30% {
-       left: 1200px;
+       left: 99%;
        top: 0;
        background-color: red;
     }
