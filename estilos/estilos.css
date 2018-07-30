@@ -266,11 +266,11 @@ body {
     }
     10% {
         left: 33%;
-        top: 0px;
+        top: 0;
     }
     20% {
-        left: 66%px;
-        top: 0px;
+        left: 66%;
+        top: 0;
     }
    30% {
        left: 99%;
@@ -278,36 +278,36 @@ body {
        background-color: red;
     }
     40% {
-         top: 250px;
-        left: 1200px;
+         top: 50%;
+        left: 99%;
         border-radius: 0;
          background-color: blue;
     }
      50% {
-         top: 500px;
-         left: 1200px;
+         top: 99%;
+         left: 99%;
          background-color: rgb(41, 41, 78);
     }
     60% {
-        top: 500px;
-        left: 800px;
+        top: 99%;
+        left: 66%;
     }
     70% {
-        top: 500px;
-        left: 400px;
+        top: 99%;
+        left: 33%;
         background-color: rgb(188, 55, 221);
    }
    80% {
-    top: 500px;
+    top: 99%;
     left: 0px;
     background-color: rgb(75, 238, 189);
     }
     90% {
-        top:250px;
-        left: 0px;
+        top:50%;
+        left: 0;
     }
     100% {
-        left: 0px;
+        left: 0;
         top: 0;
          background-color: yellow;
     }
