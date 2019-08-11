@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Mali', cursive;
+}
+
+a, h1, h2, h3, h4 {
+    
+    font-family: 'Courgette', cursive;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #68edc6;
+    color: #dffdff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    position: fixed;
+}
+
+.navegador {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.tamano {
+    font-size: 3rem;
+    color: #dffdff;
+}
+
+.contenedor {
+    background-color: #90bede;
+}
+
+.cero {
+    width: 100%;
+    height: 100px;
+}
+
+.cero2 {
+
+}
+
+.primero {
+    width: 100%;
+    height: 200px;
+}
+
+.segundo {
+    width: 100%;
+    height: 600px;
+}
+
+.intermedio h2 {
+    font-size: 2.5rem;
+}
+
+.tercero {
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.sexto {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.trio {
+    width: 300px;
+    height: 500px;
+    background-color: #68edc6;
+    box-shadow: 2px 2px 5px #1e1e1e;
+    border-radius: 10px;
+}
+
+.trio h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.trio p {
+    padding: 10px;
+    overflow: hidden;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.cuarto {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    overflow: hidden;
+}
+
+.cuartoA {
+    width: 30%;
+}
+
+.cuartoD {
+    display: none;
+}
+
+.cuartoB {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cuartoB ul {
+    list-style: none;
+}
+
+.cuartoB ul li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.cuartoC {
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+}
+
+.difposition {
+    display: none;
+    width: 95%;
+    margin-top: 10px;
+    height: 95%;
+    padding: 5%;
+    overflow: hidden;
+    color: #dffdff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+}
+
+.difposition a {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+#varios1 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: movvarios2;
+    animation-duration: 1s;
+    animation-iteration-count: inherit;
+    background-color: #95d9c3;
+    color: #1e1e1e;
+}
+
+#varios1 {
+    left: 10px;
+    top: 0px;
+}
+
+#varios2 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: movvarios2;
+    animation-duration: 1s;
+    animation-iteration-count: inherit;
+    background-color: #a4f9c8;
+    color: #1e1e1e;
+}
+
+#varios2 {
+    left: 10px;
+    top: 0px;
+}
+
+@keyframes movvarios2 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 10px;
+        top: 0px;
+    }
+}
+
+#varios3 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: movvarios2;
+    animation-duration: 1s;
+    animation-iteration-count: inherit;
+    background-color: #808f85;
+}
+
+#varios3 {
+    left: 10px;
+    top: 0px;
+}
+
+@keyframes movvarios3 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 10px;
+        top: 0px;
+    }
+}
+
+#varios4 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: movvarios2;
+    animation-duration: 1s;
+    animation-iteration-count: inherit;
+    background-color: #40476d;
+}
+
+#varios4 {
+    left: 10px;
+    top: 0px;
+}
+
+#varios5 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: movvarios2;
+    animation-duration: 1s;
+    animation-iteration-count: inherit;
+    background-color: #ad5d4e;
+}
+
+#varios5 {
+    left: 10px;
+    top: 0px;
+}
+
+#varios6 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: movvarios2;
+    animation-duration: 1s;
+    animation-iteration-count: inherit;
+    background-color: #4e5340;
+}
+
+#varios6 {
+    left: 10px;
+    top: 0px;
+}
+
+.quinto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.quinto article {
+    background-color: rgba(102, 17, 17, 0.575);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #dffdff;
+    transition: .4s all;
+}
+
+.quinto article:hover {
+    background-color: rgba(255, 255, 255, 0.466);
+    box-shadow: 2px 2px 5px #1e1e1e;
+}
+
+.quinto h3 {
+    padding: 10px;
+}
+
+.ultimo {
+    width: 100%;
+    height: 900px;
+    background-color: #1e1e1e;
+    color: #68edc6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    padding-top: 40px;
+}
+
+.footertres {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    transition: .4s all;
+}
+
+.mapaframe {
+    width: 100%;
+    height: 100%;
+    border:0; 
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+.footertres a:hover {
+    background-color: #40476d8a;
+    transform: scale(1.1, 1.1)
+}
+
+.desplegable {
+    display: none;
+    transition: .4s all;
+}
+
+.menu2 {
+    width: 60%;
+    background-color: rgba(21, 21, 124, 0.603);
+    box-shadow: 2px 2px 5px #dffdff;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.menu11 {
+    width: 100%;
+    background-color: rgba(21, 21, 124, 0.603);
+    box-shadow: 2px 2px 5px #dffdff;
+    position: relative;
+    top: -40%;
+    left: 0;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.menu2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.menu2 ul li a {
+    text-decoration: none;
+    font-family: 'Mali', cursive;
+}
+
+.menu2 ul li a:hover {
+    color: #dffdff;
+}
+
+.botones {
+    border: 1px solid;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    transition: .4s all;
+    color: #ad5d4e;
+}
+
+.botones a {
+    color: #ad5d4e;
+    text-decoration: none;
+}
+
+.botonesM {
+    padding: 5px;
+    width: 95%;
+    height: 30px;
+    border: 1px solid;
+    text-align: center;
+    transition: .4s all;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.tapa3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: -100%;
+    background-color: rgba(0, 0, 0, 0.397);
+    transition: all .4s ease .2s;
+}
+
+.botonesM:hover .tapa3 {
+    right: 0;
+}
+
+.botonesM:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botones:hover {
+    background-color: darkblue;
+    cursor: pointer;
+    color: #dffdff;
+}
+
+.botones a:hover {
+    color: #dffdff;
+}
+
+.cosas:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cero2 {
+    display: none;
+}
+

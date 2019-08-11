@@ -1,0 +1,1057 @@
+.tituloprincipal {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.titulo {
+    font-size: 2.2rem;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #1e1e1e;
+}
+
+#l1 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov1;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l1 {
+    top: 70px;
+    left: 135px;
+}
+
+@keyframes mov1 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 135px;
+        top: 70px;
+    }
+}
+
+
+#l2 {
+    position: absolute;
+    top: 100px;
+    left: 1500px;
+    animation-name: mov2;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l2 {
+    left: 175px;
+    top: 70px;
+}
+
+@keyframes mov2 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 175px;
+        top: 70px;
+    }
+}
+
+#l3 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov3;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l3 {
+    left: 200px;
+    top: 70px;
+}
+
+@keyframes mov3 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 200px;
+        top: 70px;
+    }
+}
+
+#l4 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov4;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l4 {
+    left: 250px;
+    top: 70px;
+}
+
+@keyframes mov4 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 250px;
+        top: 70px;
+    }
+}
+
+#l5 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov5;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l5 {
+    left: 280px;
+    top: 70px;
+}
+
+@keyframes mov5 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 280px;
+        top: 70px;
+    }
+}
+
+#l6 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov6;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+
+#l6 {
+    left: 305px;
+    top: 70px;
+}
+
+@keyframes mov6 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 305px;
+        top: 70px;
+    }
+}
+
+#l7 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov7;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l7 {
+    left: 330px;
+    top: 70px;
+}
+
+@keyframes mov7 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 330px;
+        top: 70px;
+    }
+}
+
+/*nueva palabra */
+
+#l8 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov8;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l8 {
+    left: 350px;
+    top: 70px;
+}
+
+@keyframes mov8 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 350px;
+        top: 70px;
+    }
+}
+
+#l9 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov9;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l9 {
+    left: 380px;
+    top: 70px;
+}
+
+@keyframes mov9 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 380px;
+        top: 70px;
+    }
+}
+
+#l10 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov10;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l10 {
+    left: 450px;
+    top: 70px;
+}
+
+@keyframes mov10 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 450px;
+        top: 70px;
+    }
+}
+
+#l11 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov11;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l11 {
+    left: 480px;
+    top: 70px;
+}
+
+@keyframes mov11 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 480px;
+        top: 70px;
+    }
+}
+
+
+#l12 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov12;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l12 {
+    left: 510px;
+    top: 70px;
+}
+
+@keyframes mov12 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 510px;
+        top: 70px;
+    }
+}
+
+#l13 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov13;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l13 {
+    left: 590px;
+    top: 70px;
+}
+
+@keyframes mov13 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 590px;
+        top: 70px;
+    }
+}
+
+
+#l14 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov14;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l14 {
+    left: 620px;
+    top: 70px;
+}
+
+@keyframes mov14 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 620px;
+        top: 70px;
+    }
+}
+
+#l15 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov15;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l15 {
+    left: 650px;
+    top: 70px;
+}
+
+@keyframes mov15 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 650px;
+        top: 70px;
+    }
+}
+
+
+#l16 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov16;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l16 {
+    left: 675px;
+    top: 70px;
+}
+
+@keyframes mov16 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 675px;
+        top: 70px;
+    }
+}
+
+#l17 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov17;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l17 {
+    left: 750px;
+    top: 70px;
+}
+
+@keyframes mov17 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 750px;
+        top: 70px;
+    }
+}
+
+
+#l18 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov18;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l18 {
+    left: 780px;
+    top: 70px;
+}
+
+@keyframes mov18 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 780px;
+        top: 70px;
+    }
+}
+
+#l19 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov19;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l19 {
+    left: 810px;
+    top: 70px;
+}
+
+@keyframes mov19 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 810px;
+        top: 70px;
+    }
+}
+
+
+#l20 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov20;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l20 {
+    left: 835px;
+    top: 70px;
+}
+
+@keyframes mov20 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 835px;
+        top: 70px;
+    }
+}
+
+#l21 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov21;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l21 {
+    left: 860px;
+    top: 70px;
+}
+
+@keyframes mov21 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 835px;
+        top: 70px;
+    }
+}
+
+#l22 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov22;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l22 {
+    top: 70px;
+    left: 935px;
+}
+
+@keyframes mov22 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 935px;
+        top: 70px;
+    }
+}
+
+
+#l23 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov23;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l23 {
+    left: 965px;
+    top: 70px;
+}
+
+@keyframes mov23 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 965px;
+        top: 70px;
+    }
+}
+
+#l24 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov24;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l24 {
+    left: 1000px;
+    top: 70px;
+}
+
+@keyframes mov24 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 1000px;
+        top: 70px;
+    }
+}
+
+#l25 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov25;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l25 {
+    left: 1030px;
+    top: 70px;
+}
+
+@keyframes mov25 {
+    from {
+        left: 1500px;
+        top: 170px;
+    }
+    to {
+        left: 1030px;
+        top: 70px;
+    }
+}
+
+#l26 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov26;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l26 {
+    left: 1063px;
+    top: 70px;
+}
+
+@keyframes mov26 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 1063px;
+        top: 70px;
+    }
+}
+
+#l27 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov27;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+
+#l27 {
+    left: 1095px;
+    top: 70px;
+}
+
+@keyframes mov27 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 1095px;
+        top: 70px;
+    }
+}
+
+#l28 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov28;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l28 {
+    left: 1130px;
+    top: 70px;
+}
+
+@keyframes mov28 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 1130px;
+        top: 70px;
+    }
+}
+
+/*nueva palabra */
+
+#l29 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    animation-name: mov29;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l29 {
+    left: 1160px;
+    top: 70px;
+}
+
+@keyframes mov29 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 1160px;
+        top: 70px;
+    }
+}
+
+#l30 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov30;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l30 {
+    left: 1195px;
+    top: 70px;
+}
+
+@keyframes mov30 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 1195px;
+        top: 70px;
+    }
+}
+
+#l31 {
+    position: absolute;
+    top: 240px;
+    left: 0px;
+    animation-name: mov31;
+    animation-duration: 6s;
+    animation-iteration-count: inherit;
+}
+
+#l31 {
+    left: 440px;
+    top: 140px;
+}
+
+@keyframes mov31 {
+    from {
+        left: 0px;
+        top: 140px;
+    }
+    to {
+        left: 440px;
+        top: 140px;
+    }
+}
+
+/*nueva palabra */
+
+#l32 {
+    position: absolute;
+    top: 1200px;
+    left: 610px;
+    animation-name: mov32;
+    animation-duration: 6s;
+    animation-iteration-count: inherit;
+}
+
+#l32 {
+    left: 610px;
+    top: 140px;
+}
+
+@keyframes mov32 {
+    from {
+        left: 610px;
+        top: 1200px;
+    }
+    to {
+        left: 610px;
+        top: 140px;
+    }
+}
+
+#l33 {
+    position: absolute;
+    top: 240px;
+    left: 2500px;
+    animation-name: mov33;
+    animation-duration: 6s;
+    animation-iteration-count: inherit;
+}
+
+#l33 {
+    left: 825px;
+    top: 140px;
+}
+
+@keyframes mov33 {
+    from {
+        left: 2500px;
+        top: 140px;
+    }
+    to {
+        left: 825px;
+        top: 140px;
+    }
+}
+
+/*titulo responsive */
+
+@media (max-width: 1240px) {
+    .primero {
+        display: none;
+    }
+
+    .cero2 {
+        display: block;
+        width: 100%;
+        height: 200px;
+    }
+
+    #te1 {
+        position: absolute;
+        animation-name: movt1;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+        left: 30%;
+        top: 40px;
+    }
+ 
+    @keyframes movt1 {
+        from {
+            left: 2500px;
+            top: 140px;
+        }
+        to {
+            left: 30%;
+            top: 40px;
+        }
+    }
+
+    #te2 {
+        position: absolute;
+        animation-name: movt2;
+        animation-duration: 2s;
+        animation-iteration-count: inherit;
+        left: 50%;
+        top: 40px;
+    }
+ 
+    @keyframes movt2 {
+        from {
+            left: 2500px;
+            top: 140px;
+        }
+        to {
+            left: 50%;
+            top: 40px;
+        }
+    }
+
+    #te3 {
+        position: absolute;
+        animation-name: movt3;
+        animation-duration: 4s;
+        animation-iteration-count: inherit;
+        left: 41%;
+        top: 65px;
+    }
+ 
+    @keyframes movt3 {
+        from {
+            left: 2500px;
+            top: 140px;
+        }
+        to {
+            left: 41%;
+            top: 65px;
+        }
+    }
+
+    #te4 {
+        position: absolute;
+        animation-name: movt4;
+        animation-duration: 2s;
+        animation-iteration-count: inherit;
+        left: 20%;
+        top: 90px;
+    }
+ 
+    @keyframes movt4 {
+        from {
+            left: 2500px;
+            top: 140px;
+        }
+        to {
+            left: 20%;
+            top: 90px;
+        }
+    }
+
+    #te5 {
+        position: absolute;
+        animation-name: movt5;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+        left: 38%;
+        top: 90px;
+    }
+ 
+    @keyframes movt5 {
+        from {
+            left: 2500px;
+            top: 140px;
+        }
+        to {
+            left: 38%;
+            top: 90px;
+        }
+    }
+
+    #te6 {
+        position: absolute;
+        animation-name: movt6;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+        left: 55%;
+        top: 90px;
+    }
+ 
+    @keyframes movt6 {
+        from {
+            left: 2500px;
+            top: 140px;
+        }
+        to {
+            left: 55%;
+            top: 90px;
+        }
+    }
+
+    #te7 {
+        position: absolute;
+        animation-name: movt7;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+        left: 20%;
+        top: 140px;
+    }
+ 
+    @keyframes movt7 {
+        from {
+            left: 2500px;
+            top: 140px;
+        }
+        to {
+            left: 20%;
+            top: 140px;
+        }
+    }
+
+    #te8 {
+        position: absolute;
+        animation-name: movt8;
+        animation-duration: 2s;
+        animation-iteration-count: inherit;
+        left: 35%;
+        top: 140px;
+    }
+ 
+    @keyframes movt8 {
+        from {
+            left: 2500px;
+            top: 140px;
+        }
+        to {
+            left: 35%;
+            top: 140px;
+        }
+    }
+
+    #te9 {
+        position: absolute;
+        animation-name: movt9;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+        left: 55%;
+        top: 140px;
+    }
+ 
+    @keyframes movt9 {
+        from {
+            left: 2500px;
+            top: 140px;
+        }
+        to {
+            left: 55%;
+            top: 140px;
+        }
+    }
+
+}
+
+@media (max-width: 764px) {
+
+
+}
+
+
+

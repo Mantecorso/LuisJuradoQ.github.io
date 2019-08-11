@@ -1,0 +1,64 @@
+.fotoprincipal {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/valencia-hemisferic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fotosecundaria {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/mesa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.intermedio {
+    width: 100%;
+    height: 200px;
+    background-color: #808f85;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.fondo-fix {
+    background-image: url('../images/codigo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.fondo-fix p {
+    background-color: rgba(238, 184, 103, 0.459);
+}
+
+.imagen {
+    display: block;
+    margin: auto;
+    padding: 2%;
+    border: 2px solid #808f85;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.imagen img {
+    width: 95%;
+}
+
+.fondoweb {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/fondoweb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
