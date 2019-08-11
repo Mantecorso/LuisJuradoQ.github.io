@@ -355,7 +355,9 @@ header {
 
 .menu11 {
     width: 100%;
-    background-color: rgba(21, 21, 124, 0.603);
+    height: 400px;
+    background-color: rgba(16, 16, 109, 0.603);
+    color: #dffdff;
     box-shadow: 2px 2px 5px #dffdff;
     position: relative;
     top: -40%;
@@ -398,7 +400,7 @@ header {
 
 .botonesM {
     padding: 5px;
-    width: 95%;
+    width: 90%;
     height: 30px;
     border: 1px solid;
     text-align: center;
@@ -440,6 +442,7 @@ header {
 .cosas:hover {
     cursor: pointer;
     font-weight: bold;
+    color: #1e1e1e;
 }
 
 .cero2 {

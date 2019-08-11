@@ -18,6 +18,7 @@
 
     .intermedio h2 {
         font-size: 1rem;
+        margin-left: 15px;
     }
 
     .ultimo {
@@ -57,7 +58,11 @@
     }
 
     .cuartoA {
-        width: 70%;
+        width: 68%;
+    }
+
+    .fotomia {
+        width: 68%;
     }
     
     .cuartoB {

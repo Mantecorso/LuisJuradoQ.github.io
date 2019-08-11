@@ -931,7 +931,7 @@
         animation-name: movt4;
         animation-duration: 2s;
         animation-iteration-count: inherit;
-        left: 20%;
+        left: 15%;
         top: 90px;
     }
  
@@ -941,7 +941,7 @@
             top: 140px;
         }
         to {
-            left: 20%;
+            left: 15%;
             top: 90px;
         }
     }
@@ -951,7 +951,7 @@
         animation-name: movt5;
         animation-duration: 3s;
         animation-iteration-count: inherit;
-        left: 38%;
+        left: 33%;
         top: 90px;
     }
  
@@ -961,7 +961,7 @@
             top: 140px;
         }
         to {
-            left: 38%;
+            left: 33%;
             top: 90px;
         }
     }
@@ -971,7 +971,7 @@
         animation-name: movt6;
         animation-duration: 3s;
         animation-iteration-count: inherit;
-        left: 59%;
+        left: 54%;
         top: 90px;
     }
  
@@ -981,7 +981,7 @@
             top: 140px;
         }
         to {
-            left: 59%;
+            left: 54%;
             top: 90px;
         }
     }
