@@ -971,7 +971,7 @@
         animation-name: movt6;
         animation-duration: 3s;
         animation-iteration-count: inherit;
-        left: 55%;
+        left: 59%;
         top: 90px;
     }
  
@@ -981,7 +981,7 @@
             top: 140px;
         }
         to {
-            left: 55%;
+            left: 59%;
             top: 90px;
         }
     }
