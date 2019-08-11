@@ -1,345 +1,383 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta autor="Luis Jurado Quesada">
-    <meta description="Curriculum">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <meta name="description" content="luis jurado quesada web developer programador web">
-    <meta name="keywords" content="luis, jurado, quesada, web, developer, programador, angular, HTLM, CSS, Javascript, JS, XML, Bases de datos, Mysql, SQL, nodejs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Luis Jurado Quesada</title>
-    <link rel="stylesheet" href="estilos/normalize.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-        crossorigin="anonymous">
-    <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
-    <link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="estilos/estilos.css">
-    <script type="text/javascript">
-        segundos = 0;
-
-        function cambiafondo() {
-            segundos = segundos + 1;
-            if (segundos == 5) {
-                document.body.style.backgroundImage = '';
-                document.body.style.backgroundColor = 'Red';
-            } else if (segundos == 10)
-                document.body.style.backgroundColor = 'Green';
-            else if (segundos == 15)
-                document.body.style.backgroundColor = 'Yellow';
-            else if (segundos == 20)
-                document.body.style.backgroundColor = 'Blue';
-            else if (segundos == 25)
-                document.body.style.backgroundColor = 'Cyan';
-            else if (segundos == 30)
-                document.body.style.backgroundColor = 'Black';
-            else if (segundos == 35)
-                document.body.style.backgroundColor = 'White';
-            else if (segundos == 40)
-                document.body.style.backgroundColor = '#FF3456';
-            else if (segundos == 45)
-                document.body.style.backgroundColor = '#5a0002';
-            else if (segundos == 50)
-                document.body.style.backgroundColor = '#a40606';
-            else if (segundos == 55)
-                document.body.style.backgroundColor = '#d98324';
-            else if (segundos == 60)
-                document.body.style.backgroundColor = '#d7cf07';
-            else if (segundos == 65)
-                document.body.style.backgroundColor = '#230007';
-            else if (segundos == 70)
-                document.body.style.backgroundColor = '#0e273c';
-            else if (segundos == 75)
-                document.body.style.backgroundColor = '#4a306d';
-            else if (segundos == 80) {
-                document.body.style.backgroundImage =
-                    'url(http://tuxlink.files.wordpress.com/2007/10/leopard-server-wallpaper.jpg)';
-                segundos = 0;
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="./images/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/fotoprincipal.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/titulo.css">
+    <link rel="icon" type="image/png" href="./images/favicom/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./images/favicom/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Mali:400,700&display=swap&subset=latin-ext" rel="stylesheet"> 
 </head>
-
-<body onload="cambiafondo(); setInterval('cambiafondo()', 100);">
-    <div class="boton" id="boton"></div>
-    <div class="container-fluid d-none d-md-block whiste">
-        <div class="row">
-            <div class="col-1 big7">
-                <a href="http://paratresqueloleen.blogspot.com/" target="_blanck"> <img src="images/Blogging-PNG-Clipart.png" alt="blog"></a>
-            </div>
-            <div class="col-10"></div>
-            <div class="col-1 big1">
-                
-                    <img src="images/Copy of L (12).png" alt="logo" id="logo">
-                
-            </div>
-
-            <div class="col-12 big2">
-                <div class="row">
-                    <div class="col-12 nine"></div>
-                    <div class=" col-12 Iam">
-
-                        <h4>Hola</h4>
-                        <b>
-                          <div class="innerIam">
-                            buscas mejorar tu web?<br /> 
-                            una nueva imagen<br />
-                            con la ultima tecnologia<br />
-                            visible en todos los navegadores<br />
-                            Yo puedo ayudarte
-                            </div>
-                        </b>
-                        
-                        </div>
-                    <div class="col-2"></div>
-                    <div class="col-2" id="uno">
-                        
-                        <ul class="nav nav-tabs"> 
-                                <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">WEB developer</a>
-                                  <div class="dropdown-menu">
-                                    <p class="dropdown-item gris">GIT</p>
-                                    <p class="dropdown-item gris">NODE.JS</p>
-                                    <p class="dropdown-item gris">SQL</p>
-                                  
-                                </li>
-                        </ul>  
-                    </div>
-                    <div class="col-1"></div>
-                    <div class="col-2" id="dos">
-                        <a href="mailto:luisjuradoquesada@gmail.com">Let's talk</a>
-                    </div>
-                    <div class="col-1"></div>
-                    <div class="col-2" id="tres">
-                        
-                        <ul class="nav nav-tabs"> 
-                                <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Last tendences</a>
-                                  <div class="dropdown-menu">
-                                    <p class="dropdown-item gris">VUE.JS</p>
-                                    <p class="dropdown-item gris">ANGULAR 2</p>
-                                    <p class="dropdown-item gris">BOOTSTRAP</p>
-                                  
-                                </li>
-                        </ul>        
-                    </div>
-
+<body>
+    <div class="contenedor">
+        <a name="arriba"></a>
+        <header>
+            <nav class="navegador">
+                <div class="image">
+                    <a href="#arriba" title="Subir"><img src="./images/logoluis.png" width="50px" alt="Logo"></a> 
                 </div>
+                <span class="icon-menu tamano" id="menu" onclick="mostrar()"></span>
+            </nav>
+            <div class="menu2 desplegable" id="menu99">
+                <nav>
+                    <ul>
+                        <li class="botones"><a href="mailto:luisjuradoquesada@gmail.com" class="enlaces">CONTACTA</a></li>
+                        <li class="botones"><a href="#ofrecer" class="enlaces">¿Que ofrecemos?</a></li>
+                        <li class="botones"><a href="#somos" class="enlaces">¿Quienes somos?</a></li>
+                        <li class="botones"><a href="#trabajos" class="enlaces">Nuestros trabajos</a></li>
+                        <li class="botones"><a href="" class="enlaces">Un pequeño blog</a></li>
+                        <li class="botones"><p class="enlaces" onclick="mostrar()">Cerrar</p></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="col-12 big3">
-                <div class="container big4">
-                    <div class="Grid"></div>
-                    <div class="Grid" id="a20">
-                        <a href="https://www.linkedin.com/in/luis-jurado-quesada/" target="_blank">Linkedin</a>
-                    </div>
-                    <div class="Grid" id="a21">
-                        <a href="https://www.instagram.com/luisjuradoquesada/" target="_blank">Instagram</a>
-                    </div>
-                   <!-- <div class="Grid" id="a22">
-                        <a href="https://twitter.com/?lang=es" target="_blank">Twitter</a>
-                    </div> -->
-                    <div class="Grid" id="a23">
-                        <a href="mailto:luisjuradoquesada@gmail.com">Contact</a>
-                    </div>
-                    <div class="Grid" id="a24">
-                        <a href="https://github.com/Mantecorso" target="_blank">Works</a>
-                    </div>
-                    <div class="Grid"></div>
+        </header>
+        <section class="cero">
+ 
+        </section>
+        <section class="cero2">
+            <div class="tituloprincipal">
+                <h2 class="" id="te1">WEB</h2>
+                <h2 class="" id="te2">DESIGN</h2>
+                <h2 class="" id="te3">and</h2>
+                <h2 class="" id="te4">FULL</h2>
+                <h2 class="" id="te5">STACK</h2>
+                <h2 class="" id="te6">DEVELOPER</h2>
+                <h2 class="" id="te7">Luis</h2>
+                <h2 class="" id="te8">Jurado</h2>
+                <h2 class="" id="te9">Quesada</h2>
+            </div>
+        </section>
+        <main class="primero" id="uno">
+            <div class="tituloprincipal">
+            <!--   <h2>web design and full stack developer</h2>
+                <h2>Luis Jurado Quesada</h2>  --> 
+                <h2 class="titulo" id="l1">W</h2>
+                <h2 class="titulo" id="l2">E</h2>
+                <h2 class="titulo" id="l3">B</h2>
+                <h2 class="titulo" id="l4">D</h2>
+                <h2 class="titulo" id="l5">E</h2>
+                <h2 class="titulo" id="l6">S</h2>
+                <h2 class="titulo" id="l7">I</h2>
+                <h2 class="titulo" id="l8">G</h2>
+                <h2 class="titulo" id="l9">N</h2>
+                <h2 class="titulo" id="l10">a</h2>
+                <h2 class="titulo" id="l11">n</h2>
+                <h2 class="titulo" id="l12">d</h2>
+                <h2 class="titulo" id="l13">F</h2>
+                <h2 class="titulo" id="l14">U</h2>
+                <h2 class="titulo" id="l15">L</h2>
+                <h2 class="titulo" id="l16">L</h2>
+                <h2 class="titulo" id="l17">S</h2>
+                <h2 class="titulo" id="l18">T</h2>
+                <h2 class="titulo" id="l19">A</h2>
+                <h2 class="titulo" id="l20">C</h2>
+                <h2 class="titulo" id="l21">K</h2>
+                <h2 class="titulo" id="l22">D</h2>
+                <h2 class="titulo" id="l23">E</h2>
+                <h2 class="titulo" id="l24">V</h2>
+                <h2 class="titulo" id="l25">E</h2>
+                <h2 class="titulo" id="l26">L</h2>
+                <h2 class="titulo" id="l27">O</h2>
+                <h2 class="titulo" id="l28">P</h2>
+                <h2 class="titulo" id="l29">E</h2>
+                <h2 class="titulo" id="l30">R</h2>
+                <h2 class="titulo" id="l31">Lui<span">s</span> </h2>
+                <h2 class="titulo" id="l32">Jurado</h2>
+                <h2 class="titulo" id="l33">Qu<span>e</span><span>s</span>ada</h2>
+            </div>
+        </main>
+        <section class="segundo fotoprincipal" id="dos">
+
+        </section>
+        <a name="ofrecer"></a> 
+        <section class="sexto" id="seis">
+            <article class="trio">
+                <h3><span class="icon-display tamano4"></span></h3>
+                <h3>Diseño WEB</h3>
+                <p>
+                    Diseños modernos y completamente personalizables, a gusto del cliente.
+                    Con una adaptación total a cualquier diseño y tamaño de pantalla.
+                    Válido para móviles, tablets y ordenadores. Para usar en los últimos 
+                    navegadores disponibles. (Crome, Edge, Firefox, Opera...). 
+                </p>
+            </article>
+            <article class="trio">
+                <h3><span class="icon-wrench tamano4"></span></h3>
+                <h3>Mantenimiento WEB</h3>
+                <p>
+                    Con precios reducidos acordes al mercado, buscando siempre el mejor posicionamiento
+                    en los buscadores (SEO), con posibilidad de trabajar periodicamente los contenidos y 
+                    las redes sociales, para aumentar la visibilidad del negocio.
+                </p>
+            </article>
+            <article class="trio">
+                <h3><span class="icon-embed2 tamano4"></span></h3>
+                <h3>Desarrollos Back-End</h3>
+                <p>
+                    Y por supuesto, con todo lo que necesites para tu negocio, 
+                    Completas estructuras para empresas en servidores dedicados 
+                    para un desarrollo de infraestructuras personalizadas 
+                    adaptadas a las particularidades propias del sector. Para acompañarte 
+                    en todo el proceso.
+                </p>
+            </article>
+        </section>
+        <section class="tercero" id="tres">
+            <div class="fondo-fix">
+
+            </div>
+        </section>
+        <a name="somos"></a>
+        <section class="intermedio" id="noventa"><h2>Trabajamos contigo y te acompañamos en el crecimiento de tu negocio.</h2></section>
+        <section class="cuarto fondoweb" id="cuatro">
+            <article class="cuartoA">
+                <img src="./images/luis-1024x1024.jpg" width="100%" alt="Luis Jurado quesada" title="Luis Jurado Quesada">
+            </article>
+            <article class="cuartoB">
+                <ul>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="unoa()">Estudios</p>
+                        <div class="tapa3" onclick="unoa()"></div>
+                    </li>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="unob()">Experiencia</p>
+                        <div class="tapa3" onclick="unob()"></div>
+                    </li>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="unoc()">Aficiones</p>
+                        <div class="tapa3" onclick="unoc()"></div>
+                    </li>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="unod()">Conocimientos</p>
+                        <div class="tapa3" onclick="unod()"></div>
+                    </li>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="unoe()">Vida personal</p>
+                        <div class="tapa3" onclick="unoe()"></div>
+                    </li>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="unof()">Otros</p>
+                        <div class="tapa3" onclick="unof()"></div>
+                    </li>
+                </ul>
+            </article>
+            <article class="cuartoD">
+                <ul>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="dosa()">Estudios</p>
+                        <div class="tapa3" onclick="dosa()"></div>
+                    </li>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="dosb()">Experiencia</p>
+                        <div class="tapa3" onclick="dosb()"></div>
+                    </li>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="dosc()">Aficiones</p>
+                        <div class="tapa3" onclick="dosc()"></div>
+                    </li>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="dosd()">Conocimientos</p>
+                        <div class="tapa3" onclick="dosd()"></div>
+                    </li>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="dose()">Vida personal</p>
+                        <div class="tapa3" onclick="dose()"></div>
+                    </li>
+                    <li class="botonesM">
+                        <p class="cosas" onclick="dosf()">Otros</p>
+                        <div class="tapa3" onclick="dosf()"></div>
+                    </li>
+                </ul>
+            </article>
+            <div class="desplegable menu11" id="menu88">
+                <p>
+                    Curso Adobe DreamWeaver, HTML, CSS y JavaScript. Academia Trébol. <br> <br>
+                    Full Stack Developer. GeeksHubs Academy. <br> <br>
+                    Google Analitycs. Academia Trébol. <br> <br>
+                    PHP, SQL, JavaScript. Academia Beta Formación. <br> <br>
+                    Diseño y confección de páginas WEB. SERVEF. <br> <br>
+                    Desarrollo en Aplicaciones Web (DAW). <br> <br>
+                </p>
+                <div class="boton11">
+                    <p class="cosas" onclick="dosa()">Cerrar</p>
+                    <div class="tapa4" onclick="dosa()"></div>
                 </div>
+                
             </div>
-        </div>
-    </div>
-   <!-- <div class="container-fluid d-block d-md-none d-sm-block">
-        <div class="row">
-            <section>
+            <div class="desplegable menu11" id="menu87">
+                <p>
+                    Quince años de experiencia en diferentes sectores. <br> <br>
+                    Incluyendo el liderazgo y la gestión de equipos, ventas, inventarios, etc. <br> 
+                </p>
+                <div class="boton11">
+                    <p class="cosas" onclick="dosb()">Cerrar</p>
+                    <div class="tapa4" onclick="dosb()"></div>
+                </div>
                 
+            </div>
+            <div class="desplegable menu11" id="menu86">
+                <p>
+                    El deporte en general y el ciclismo y el running en particular. <br> <br>
+                    También me gusta la ciencia, (soy miembro del grupo de divulgación científica "<a href="https://lafisicadelgrel.blogspot.com/">La física del GREL</a>").  <br> <br>
+                    La lectura y los juegos de mesa tambien forman parte de mis aficiones. <br> <br>
+                </p>
+                <div class="boton11">
+                    <p class="cosas" onclick="dosc()">Cerrar</p>
+                    <div class="tapa4" onclick="dosc()"></div>
+                </div>
+                
+            </div>
+            <div class="desplegable menu11" id="menu85">
+                <p>
+                    Mysql, mongodb, mariadb. oracle. <br> <br>
+                    HTML5, CSS3, Bootstrap, Minimalize, Bulma. <br> <br>
+                    JavaScript, Jquery, Angular, React, Vue, ElectronJS. <br> <br>
+                    GIT, NodeJS, Express. <br> <br>
+                    Google Analitycs, Mailrelay, SEO. <br> <br>
+                    Scrum, Agile. <br> <br>
+                    PHP <br> <br>
+                </p>
+                <div class="boton11">
+                    <p class="cosas" onclick="dosd()">Cerrar</p>
+                    <div class="tapa4" onclick="dosd()"></div>
+                </div>
+                
+            </div>
+            <div class="desplegable menu11" id="menu84">
+                <p>
+                    Actualmemte resido en Valencia (España), 
+                    aunque he residido por temas laborales en diferentes lugares, 
+                    incluida Inglaterra.
+                </p>
+                <div class="boton11">
+                    <p class="cosas" onclick="dose()">Cerrar</p>
+                    <div class="tapa4" onclick="dose()"></div>
+                </div>
+                
+            </div>
+            <div class="desplegable menu11" id="menu83">
+                <p>
+                    Carnet de conducir B1. <br> <br>
+                </p>
+                <div class="boton11">
+                    <p class="cosas" onclick="dosf()">Cerrar</p>
+                    <div class="tapa4" onclick="dosf()"></div>
+                </div>
+                
+            </div>
+            <article class="cuartoC">
+                <div class="difposition" id="varios1">
+                    <p>
+                        Curso Adobe DreamWeaver, HTML, CSS y JavaScript. Academia Trébol. <br> <br>
+                        Full Stack Developer. GeeksHubs Academy. <br> <br>
+                        Google Analitycs. Academia Trébol. <br> <br>
+                        PHP, SQL, JavaScript. Academia Beta Formación. <br> <br>
+                        Diseño y confección de páginas WEB. SERVEF. <br> <br>
+                        Desarrollo en Aplicaciones Web (DAW). <br> <br>
 
-                    <div class="row">
-                        <div class="col-2">
+                    </p>
+                </div>
+                <div class="difposition" id="varios2">
+                    <p>
+                        Quince años de experiencia en diferentes sectores. <br> <br>
+                        Incluyendo el liderazgo y la gestión de equipos, ventas, inventarios, etc. <br> <br>
 
-                        </div>
-                        <div class="col-6">
-                            <h1>Luis Jurado Quesada</h1>
+                    </p>
+                </div>
+                <div class="difposition" id="varios3">
+                    <p>
+                        El deporte en general y el ciclismo y el running en particular. <br> <br>
+                        También me gusta la ciencia, (soy miembro del grupo de divulgación científica "<a href="https://lafisicadelgrel.blogspot.com/">La física del GREL</a>").  <br> <br>
+                        La lectura y los juegos de mesa tambien forman parte de mis aficiones. <br> <br>
+                    </p>
+                </div>
+                <div class="difposition" id="varios4">
+                    <p>
+                        Mysql, mongodb, mariadb. oracle. <br> <br>
+                        HTML5, CSS3, Bootstrap, Minimalize, Bulma. <br> <br>
+                        JavaScript, Jquery, Angular, React, Vue, ElectronJS. <br> <br>
+                        GIT, NodeJS, Express. <br> <br>
+                        Google Analitycs, Mailrelay, SEO. <br> <br>
+                        Scrum, Agile. <br> <br>
+                        PHP <br> <br>
+                    </p>
+                </div>
+                <div class="difposition" id="varios5">
+                    <p>
+                        Actualmemte resido en Valencia (España), 
+                        aunque he residido por temas laborales en diferentes lugares, 
+                        incluida Inglaterra.
+                    </p>
+                </div>
+                <div class="difposition" id="varios6">
+                    <p>
+                        Carnet de conducir B1. <br> <br>
 
-
-                        </div>
-                        <div class="col-3">
-                            <img src="images/HTML5%20logo.png" class="logos" alt="Logo HTML">
-
-                        </div>
-                        <div class="col-2">
-
-                        </div>
-                        <div class="col-6">
-                            <h1>
-                                <a href="mailto:luisjuradoquesada@hotmail.com">
-                                    <img src="images/Copy%20of%20L%20(12).png" alt="Logo personal">
-                                </a>
-                            </h1>
-                        </div>
-                        <div class="col-3">
-
-                            <img src="images/CSS3_logo_and_wordmark.svg.png" class="logos" alt="Logo CSS">
-                        </div>
-                        <div class="col-2">
-
-                        </div>
-                        <div class="col-6">
-                            <h2>Freelance WEB Developer</h2>
-                        </div>
-                        <div class="col-3">
-
-                            <img src="images/js1_0.png" class="logos" alt="Logo JavaScript">
-                        </div>
-                        <div class="col-2">
-
-                        </div>
-                        <div class="col-6">
-                            <h2>
-                                <a href="mailto:luisjuradoquesada@hotmail.com">Let's talk.</a>
-                            </h2>
-                        </div>
-                        <div class="col-3">
-                            <img src="images/angularjs-logo.png" class="logos" alt="Logo Angular">
-
-                        </div>
-                        <div class="col-2">
-
-                        </div>
-                        <div class="col-6">
-
-                        </div>
-                        <div class="col-3">
-                            <img src="images/Brackets_Icon.svg.png" class="logos" alt="Logo Brackets">
-
-                        </div>
-                        <div class="col-2">
-
-                        </div>
-                        <div class="col-6">
-                            
-                            <a href="https://www.linkedin.com/feed/" target="_blanck">
-                                <img src="images/linkedin-logo-black_175153.png" class="sizes" alt="Linkedin">
-                            </a>
-                            <a href="mailto:luisjuradoquesada@hotmail.com" target="_blanck">
-                                <img src="images/56.png" class="sizes" alt="Contact"> </a>
-                            <a href="https://github.com/Mantecorso" target="_blanck">
-                                <img src="images/github-512.png" class="sizes" alt="Works"> </a>
-                        </div>
-                        <div class="col-3">
-                            <img src="images/2000px-Text-xml.svg.png" class="logos" alt="Logo XML">
-
-                        </div>
+                    </p>
+                </div>
+            </article>
+        </section>
+        <a name="trabajos"></a>
+        <section class="quinto fotosecundaria" id="cinco">
+            <article>
+                <h3>Contacta conmigo en:</h3>
+                <h3>luisjuradoquesada@gmail.com</h3>
+                <h3>Presupuestos sin compromiso.</h3>
+            </article>
+        </section>
+        <nav class="redes">
+            <ul>
+                <li><a href="mailto:luisjuradoquesada@gmail.com" target="_blank"><span class="icon-mail2 tamano2"></span></a></li>
+                <li><a href="https://www.instagram.com/luisjuradoquesada/" target="_blank"><span class="icon-instagram tamano2"></span></a></li>
+                <li><a href="https://github.com/Mantecorso" target="_blank"><span class="icon-github tamano2"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/luis-jurado-quesada/" target="_blank"><span class="icon-linkedin tamano2"></span></a></li>
+            </ul>
+            <small class="lugar"> <span class="icon-lock" tamano3></span>Luis Jurado Quesada 2019.</small>
+        </nav>
+        <footer class="ultimo" id="fin">
+            <section class="footertres">
+                <h3>Trabajos: <span class="icon-stats-dots"></span></h3>
+                <a href="http://www.rspymes.org/" target="_blank" title="Web rspymes">
+                    <div class="imagen">
+                        <img src="./images/rspymes.png" alt="rspymes">
                     </div>
-
-                
+                </a>
+                <a href="http://juegodeiker.000webhostapp.com/" target="_blank" title="Web juego en JavaScript">
+                    <div class="imagen">
+                        <img src="./images/juegoiker.png" alt="El juego de Iker">
+                    </div>
+                </a>
+                <a href="http://viajeatarragona.000webhostapp.com/" target="_blank" title="Web álbum de fotos">
+                    <div class="imagen">
+                        <img src="./images/viajetarragona.png" alt="Viaje a Tarragona">
+                    </div>
+                </a>
             </section>
-
-        </div>
-    </div> -->
-    <div class="container-fluid d-block d-md-none">
-            <div class="row">
-                
-                    <div class="container3">
+            <section class="footertres">
+                <h3>Enlaces amigos: <span class="icon-happy2"></span></h3>
+                <article></article>
+                <article></article>
+                <article></article>
+            </section>
+            <section class="footertres">
+                <h3>¿Donde encontrarme? <span class="icon-location"></span></h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d769.8267151164068!2d-0.39551987078807915!3d39.484985033770776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f6014ca6353%3A0x54e3da3844e4f28e!2sAv.+de+Pius+XII%2C+24%2C+46035+Val%C3%A8ncia!5e0!3m2!1ses!2ses!4v1565432470234!5m2!1ses!2ses" frameborder="0" class="mapaframe" allowfullscreen></iframe>
+                <article></article>
+                <article></article>
+                <article></article>
+            </section>
+        </footer>
+    </div>
     
-                        <div class="row">
-                            <div class="col-3">
-    
-                            </div>
-                            <div class="col-6">
-                                <h1>Luis Jurado Quesada</h1>
-    
-    
-                            </div>
-                            <div class="col-3">
-                                
-    
-                            </div>
-                            <div class="col-3">
-                                    <img src="images/HTML5%20logo.png" class="logos" alt="Logo HTML">
-                            </div>
-                            <div class="col-6">
-                                <h1>
-                                    <a href="mailto:luisjuradoquesada@gmail.com">
-                                        <img src="images/Copy%20of%20L%20(12).png" alt="Logo personal">
-                                    </a>
-                                </h1>
-                            </div>
-                            <div class="col-3">
-    
-                                <img src="images/CSS3_logo_and_wordmark.svg.png" class="logos" alt="Logo CSS">
-                            </div>
-                            <div class="col-3">
-                                    <img src="images/Brackets_Icon.svg.png" class="logos" alt="Logo Brackets">
-                            </div>
-                            <div class="col-6">
-                                <h2>Freelance WEB Developer</h2>
-                            </div>
-                            <div class="col-3">
-    
-                                <img src="images/js1_0.png" class="logos" alt="Logo JavaScript">
-                            </div>
-                            <div class="col-3">
-                                    <img src="images/2000px-Text-xml.svg.png" class="logos" alt="Logo XML">
-                            </div>
-                            <div class="col-6">
-                                <h2>
-                                    <a href="mailto:luisjuradoquesada@gmail.com">Let's talk.</a>
-                                </h2>
-                            </div>
-                            <div class="col-3">
-                                <img src="images/angularjs-logo.png" class="logos" alt="Logo Angular">
-    
-                            </div>
-                            <div class="col-3">
-    
-                            </div>
-                            <div class="col-6">
-    
-                            </div>
-                            <div class="col-3">
-                                
-    
-                            </div>
-                            <div class="col-3">
-    
-                            </div>
-                            <div class="col-6">
-                                <!--! usar target para abrir enlaces en otra pagina !!-->
-                                <a href="https://www.linkedin.com/in/luis-jurado-quesada/" target="_blanck">
-                                    <img src="images/linkedin-logo-black_175153.png" class="sizes" alt="Linkedin">
-                                </a>
-                                <a href="mailto:luisjuradoquesada@gmail.com" target="_blanck">
-                                    <img src="images/56.png" class="sizes" alt="Contact"> </a>
-                                <a href="https://github.com/Mantecorso" target="_blanck">
-                                    <img src="images/github-512.png" class="sizes" alt="Works"> </a>
-                            </div>
-                            <div class="col-3">
-                                
-    
-                            </div>
-                        </div>
-                        <a href="http://paratresqueloleen.blogspot.com/" target="_blanck"><img src="images/SafeOrgIcon-O-Blog.png" class="big9" alt=""> </a>
-                    </div>
-                
-    
-            </div>
-        </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54516992-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-54516992-1');
-        </script>
-
+    <script src="./js/main.js"></script>
+    <script src="./js/second.js"></script>
+    <script src="./js/curriculum.js"></script>
 </body>
 </html>
