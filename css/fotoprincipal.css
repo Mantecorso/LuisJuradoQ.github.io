@@ -1,7 +1,7 @@
 .fotoprincipal {
     width: 100%;
     height: 600px;
-    background-image: url(../images/valencia-hemisferic.jpg);
+    background-image: url('../images/valencia-hemisferic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -10,7 +10,7 @@
 .fotosecundaria {
     width: 100%;
     height: 600px;
-    background-image: url(../images/mesa.jpg);
+    background-image: url('../images/mesa.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@
 .fotomia {
     width: 30%;
     height: 600px;
-    background-image: url(../images/luis1.jpg);
+    background-image: url('../images/luis1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,7 +29,7 @@
 .fotomia:hover {
     width: 30%;
     height: 600px;
-    background-image: url(../images/luis2.jpg);
+    background-image: url('../images/luis2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -77,7 +77,7 @@
 .fondoweb {
     width: 100%;
     height: 600px;
-    background-image: url(../images/fondoweb.png);
+    background-image: url('../images/fondoweb.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

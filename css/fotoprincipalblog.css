@@ -1,0 +1,18 @@
+.imagencodigo {
+    background-image: url('../images/codigo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.imagenbanner {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/banner-904884_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
