@@ -344,7 +344,7 @@ header {
 
 .menu2 {
     width: 60%;
-    background-color: rgba(21, 21, 124, 0.603);
+    background-color: rgba(21, 21, 124, 0.719);
     box-shadow: 2px 2px 5px #dffdff;
     position: relative;
     top: 20%;
@@ -378,6 +378,7 @@ header {
 .menu2 ul li a {
     text-decoration: none;
     font-family: 'Mali', cursive;
+    color: #dffdff;
 }
 
 .menu2 ul li a:hover {
@@ -390,11 +391,11 @@ header {
     width: 200px;
     text-align: center;
     transition: .4s all;
-    color: #ad5d4e;
+    color: #9fad4e;
 }
 
 .botones a {
-    color: #ad5d4e;
+    color: #9fad4e;
     text-decoration: none;
 }
 
@@ -430,7 +431,7 @@ header {
 }
 
 .botones:hover {
-    background-color: darkblue;
+    background-color: #ad5d4e;
     cursor: pointer;
     color: #dffdff;
 }
