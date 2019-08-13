@@ -3,8 +3,99 @@ body {
     color: #dffdff;
 }
 
+h1 {
+    font-size: 3.3rem;
+    text-shadow: 2px 2px 5px #1e1e1e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Mali', cursive;
+}
+
+a, h1, h2, h3, h4 {
+    
+    font-family: 'Courgette', cursive;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #68edc6;
+    color: #dffdff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    position: fixed;
+}
+
 .textoentrada {
-    margin: 10%;
+    margin: 0 10%;
     padding: 2%;
     background-color: #4e5340;
+    border-radius: 10px;
 }
+
+h2 {
+    padding: 20px;
+}
+
+.textoentrada p {
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 2;
+}
+
+.textoentrada p a {
+    text-decoration: none;
+    color: #90bede;
+}
+
+.textoentrada h3 {
+    line-height: 2;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.tamano1 {
+    font-size: 3rem;
+    color: #dffdff;
+    text-shadow: 2px 2px 5px #1e1e1e;
+}
+
+.navegador a {
+    text-decoration: none;
+}
+
+.navegador {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.tabla {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+    border-bottom: 3px solid;
+}
+
+.tabla td {
+    width: 14%;
+    text-align: center;
+    border-bottom: 3px solid;
+    border-collapse: collapse;
+}
+
+.tabla thead {
+    color: #68edc6;
+    font-weight: bold;
+}
+
