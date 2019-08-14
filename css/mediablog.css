@@ -1,0 +1,23 @@
+@media (max-width: 764px) {
+    h1 {
+        font-size: 2.3rem;
+        text-shadow: 2px 2px 5px #1e1e1e;
+    }
+    .tamano1 {
+        font-size: 2.6rem;
+        color: #dffdff;
+        text-shadow: 2px 2px 5px #1e1e1e;
+    }
+}
+
+@media (max-width: 454px) {
+    h1 {
+        font-size: 1.6rem;
+        text-shadow: 2px 2px 5px #1e1e1e;
+    }
+    .tamano1 {
+        font-size: 2.3rem;
+        color: #dffdff;
+        text-shadow: 2px 2px 5px #1e1e1e;
+    }
+}
