@@ -8,6 +8,40 @@
         color: #dffdff;
         text-shadow: 2px 2px 5px #1e1e1e;
     }
+
+
+.tabla {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+    border-bottom: 2px solid;
+}
+
+.tabla td {
+    font-size: .85rem;
+    text-align: center;
+    border-bottom: 2px solid;
+    border-collapse: collapse;
+}
+
+.tabla thead {
+    color: #68edc6;
+    font-weight: bold;
+}
+
+.quita {
+    display: none;
+}
+
+}
+
+@media (max-width: 864px) {
+    .tabla td {
+        font-size: .65rem;
+        text-align: center;
+        border-bottom: 2px solid;
+        border-collapse: collapse;
+    }
 }
 
 @media (max-width: 454px) {
@@ -19,5 +53,12 @@
         font-size: 2.3rem;
         color: #dffdff;
         text-shadow: 2px 2px 5px #1e1e1e;
+    }
+
+    .tabla td {
+        font-size: .50rem;
+        text-align: center;
+        border-bottom: 2px solid;
+        border-collapse: collapse;
     }
 }
