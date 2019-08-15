@@ -92,6 +92,20 @@
         overflow: hidden;
     }
 
+    .menu11 {
+        width: 100%;
+    /*    max-height: 400px; */
+        min-height: 100px;
+        background-color: rgba(16, 16, 109, 0.603);
+        color: #dffdff;
+        box-shadow: 2px 2px 5px #dffdff;
+        position: relative;
+        top: -20%;
+        left: 0;
+        padding: 2%;
+        border-radius: 10px;
+    }
+
 }
 
 @media (max-width:624px) {
