@@ -178,6 +178,19 @@
         padding: 2%;
         border-radius: 10px;
     }
+
+    .botonesM {
+        padding: 5px;
+        width: 90%;
+        height: 30px;
+        font-size: .6rem;
+        border: 1px solid;
+        text-align: center;
+        transition: .4s all;
+        overflow: hidden;
+        position: relative;
+        background-color: #ad5d4e;
+    }
 }
 
 @media (max-width: 300px) {
