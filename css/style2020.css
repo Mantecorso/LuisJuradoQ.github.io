@@ -10,18 +10,53 @@ body {
     color: #f2e9e4;
 }
 
+.supermenu {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .navegador {
     width: 100%;
     height: 10vh;
     background: #9a8c98;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.menu {
+    width: 50%;
+}
+
+.doblemenu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.doblemenu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f2e9e4;
+    transition: all .4s ease;
+}
+
+.doblemenu li a:hover {
+    text-shadow: 6px 6px 6px #1e1e1e;
+}
+
+.tamano {
+    font-size: 3rem;
+}
 
 
-.menu2 {
+
+#menu2 {
     display: none;
 }
 
@@ -109,11 +144,352 @@ body {
     font-size: 2rem;
 }
 
-.trabajos {
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+
+svg circle {
     width: 100%;
-    height: 60vh;
+    height: 100%;
+    fill: none;
+    stroke: #9a8c98;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.threecard:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440*92)/100);
+    stroke: #1be7ff;
+}
+
+.threecard:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440*89)/100);
+    stroke: #6eeb83;
+}
+
+.threecard:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440*61)/100);
+    stroke: #e4ff1a;
+}
+
+.threetotal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1B263B;
+}
+
+.threecontainer {
+    position: relative;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.threecontainer .threecard {
+    position: relative;
+    width: 250px;
+    background: linear-gradient(0deg, #4a4e69, #22223b, #4a4e69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.threecontainer .threecard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+    border: 6px solid #ff5714;
+}
+
+.threecontainer .threecard:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .3);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.threepercent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    background: #22223b;
+    z-index: 1000;
+}
+
+.threepercent .numberthree {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.threepercent .numberthree h2 {
+    color: #777;
+    font-weight: 700;
+    font-size: 40px;
+    transition: .5s;
+}
+
+.threecard:hover .threepercent .numberthree h2 {
+    color: #ffb800;
+    font-size: 50px;
+}
+
+.threepercent .numberthree h2 span {
+    font-size: 24px;
+    color: #777;
+    transition: .5s;
+}
+
+.threecard:hover .threepercent .numberthree h2 span {
+    color: #ffb800;
+}
+
+.texthree {
+    position: relative;
+    color: #777;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: .5s;
+    margin-top: 20px;
+}
+
+.threecard:hover .texthree {
+    color: #ffb800;
+}
+
+
+
+
+.tresfotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+ .fotos3 {
+     height: 300px;
+     margin-top: 20px;
+     width: 300px;
+     padding: 2%;
+     background: #22223b;
+     box-shadow: 
+                -12px -12px 12px black,
+                12px 12px 12px black;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+.tresfotos p {
+    max-width: 350px;
+    transform-origin: center;
+    transform: perspective(800px) rotateY(20deg);
+    transition: .5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+    position: absolute;
+    top: 270px;
+}
+
+.tresfotos:hover p {
+    opacity: .1;
+    cursor: pointer;
+}
+
+.tresfotos p:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+}
+
+.fotos3:hover p {
+    top: 12px;
+}
+
+
+.doble2, .transicion {
+    width: 100%;
+    height: 100vh;
+    background: #22223b;
     padding: 2%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.antes {
+    width: 65%;
+    height: 90vh;
+    background: #9a8c98;
+    padding: 2%;
+    box-shadow: 
+                -12px -12px 12px black,
+                12px 12px 12px black;
+}
+
+.despues {
+    width: 35%;
+    height: 90vh;
+    background-color: #dffdff;
+    padding: 2%;
+    box-shadow: 
+    -12px -12px 12px black,
+    12px 12px 12px black;
+}
+
+.personal h3 {
+    padding-top: 2%;
+}
+
+.grande {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #4a4e69;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    transform-style: preserve-3d;
+}
+
+.card .face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: 2s ease-in-out;
+    transform: perspective(500px) rotateY(0deg); 
+}
+
+.card .face.front {
+    background: #22223b;
+}
+
+.card:hover .face.front {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card .face.back {
+    background: #9a8c98;
+    color: #22223b;
+    font-weight: bold;
+    font-size: .8rem;
+    padding: 2%;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .face.back {
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.card .face img {
+
+    transform: perspective(500px) translateZ(50px);
+}
+
+.mifoto {
+    width: 400px;
+}
+
+.quinto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 
+    -12px -12px 12px black,
+    12px 12px 12px black;
+}
+
+.quinto article {
+    background-color: rgba(102, 17, 17, 0.575);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #dffdff;
+    transition: .4s all;
+}
+
+.quinto article:hover {
+    background-color: rgba(255, 255, 255, 0.466);
+    box-shadow: 2px 2px 5px #1e1e1e;
+    color: black;
+}
+
+.quinto h3 {
+    padding: 10px;
+}
+
+.fotosecundaria {
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/mesa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imagengente {
+    width: 100%;
+    background-image: url('../images/gente.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.trabajos {
+    width: 100%;
+    height: 70vh;
+    padding: 2%;
+    display: none;
+    position: relative;
+}
+
+.trabajos h4 {
+    position: absolute;
+    top: 10px;
+
 }
 
 .trabajos article {
@@ -126,13 +502,85 @@ body {
 
 .trabajos article a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.9rem;
     color: #9a8c98;
     transition: all .4s ease;
 }
 
 .trabajos article a:hover {
     text-shadow: 2px 2px 6px black;
+}
+
+.mistrabajos3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 
+    -12px -12px 12px black,
+    12px 12px 12px black;
+}
+
+.mistrabajos3 img {
+    max-width: 350px;
+    transform-origin: center;
+    transform: perspective(800px) rotateY(20deg);
+    transition: .5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+}
+
+.mistrabajos3:hover img {
+    opacity: .1;
+}
+
+.mistrabajos3 img:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+}
+
+.imatrabajos img {
+    width: 300px;
+    box-shadow: 
+    -12px -12px 12px black,
+    12px 12px 12px black;
+}
+
+.imatrabajos {
+    height: 300px;
+    background: #f2e9e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imatrabajos a {
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: #9a8c98;
+    transition: all .4s ease;
+}
+
+.trestrabajos {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.despues a {
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: #9a8c98;
+    transition: all .4s ease;
+}
+
+.despues a:hover {
+    text-shadow: 2px 2px 6px black;
+}
+
+.despues h4 {
+    text-shadow: 2px 2px 2px black;
 }
 
 .redes {
@@ -169,6 +617,9 @@ body {
 .mapaframe {
     width: 100%;
     height: 50vh;
+    box-shadow: 
+    -12px -12px 12px black,
+    12px 12px 12px black;
 }
 
 .copyluis {
@@ -178,11 +629,145 @@ body {
     margin-top: 5vh;
 }
 
+ .up {
+	display: none;
+    border: 2px solid#fff;
+    border-radius: 5px;
+	padding:10px;
+	font-size:20px;
+	color:#fff;
+	background: #1B263B;
+	text-shadow: 2px 2px 6px black;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+
+.up:hover {
+	color: rgb(248, 36, 107);
+	border: 2px solid rgb(248, 36, 107);
+}
+ 
+
+
+@media screen and (max-width: 764px) {
+
+    .menu {
+        display: none;
+    }
+
+    #menu2 {
+        display: block;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .menu11 {
+        position: relative;
+    }
+    .botonmenumini {
+        position: absolute;
+        top: 10px;
+        left: 800px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-bottom-right-radius: 5px;
+        width: 300px;
+        background: #22223b;
+        text-align: center;
+        color: #c9ada7;
+        font-size: 1.5rem;
+    }
+
+    .botonmenumini:hover {
+        background: white;
+        text-shadow: 6px 6px 6px #22223b;
+        font-weight: bold;
+    }
+
+    .botonmenumini a {
+        color: #c9ada7;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    #cosa1 {
+        top: 10px;
+        transition: all .7s ease-in-out;
+        z-index: 2;
+    }
+    #cosa2 {
+        top: 60px;
+        transition: all 1s ease-in-out;
+        z-index: 2;
+    }
+    #cosa3 {
+        top: 110px;
+        transition: all 1.3s ease-in-out;
+        z-index: 2;
+    }
+    #cosa4 {
+        top: 160px;
+        transition: all 1.6s ease-in-out;
+        z-index: 2;
+    }
+    #cosa5 {
+        top: 210px;
+        transition: all 1.9s ease-in-out;
+        z-index: 2;
+    }
+}
+
 @media (max-width: 1200px) {
     .container {
         width: 1000px;
     }
+    .trabajos {
+        width: 100%;
+        height: 160vh;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
 
+    
+    .trabajos h4 {
+        position: static;
+    }
+
+    .pos8 {
+        position: absolute;
+        top: 10vh;
+    }
+
+    .pos9 {
+        position: absolute;
+        top: 120vh;
+    }
+
+    .trabajos article {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .trabajos article a {
+        text-decoration: none;
+        font-size: 2rem;
+        color: #9a8c98;
+        transition: all .4s ease;
+    }
+
+    .despues a {
+        font-size: 1.6rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -192,6 +777,82 @@ body {
     .tres {
         height: 200vh;
     }
+
+    .trabajos {
+        width: 100%;
+        height: 130vh;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .pos8 {
+        position: absolute;
+        top: 10vh;
+    }
+
+    .pos9 {
+        position: absolute;
+        top: 90vh;
+    }
+
+    .doble2, .transicion {
+        width: 100%;
+        height: 110vh;
+        background: #22223b;
+        padding: 2%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .antes {
+        width: 65%;
+        /* height: 60vh; */
+        background: #9a8c98;
+        padding: 2%;
+    }
+
+    .imagengente {
+        width: 100%;
+        background-image: url('../images/gente.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .despues {
+        width: 35%;
+        /* height: 60vh; */
+        background-color: #dffdff;
+        padding: 2%;
+    }
+
+    .tresfotos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 700px;
+    }
+
+    .mistrabajos3 {
+        height: 700px;
+    }
+    
+    .threecontainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .threecard {
+        margin-bottom: 20px;
+    }
+
 }
 
 @media (max-width: 764px) {
@@ -203,7 +864,7 @@ body {
         display: none;
     }
 
-    .menu2 {
+    #menu2 {
         display: block;
     }
 
@@ -221,4 +882,90 @@ body {
         margin-top: 10vh;
         margin-bottom: 4vh;
     }
+
+    .trabajos article {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .trabajos article a {
+        text-decoration: none;
+        font-size: 2rem;
+        color: #9a8c98;
+        transition: all .4s ease;
+    }
+
+    .trabajos {
+        width: 100%;
+        height: 100vh;
+        padding: 2%;
+        display: flex;
+        position: relative;
+    }
+
+    .pos9 {
+        position: absolute;
+        top: 60vh;
+    }
+
+
+
+    .quinto h3 {
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+
+    .doble2, .transicion {
+        width: 100%;
+        height: 100vh;
+        background: #22223b;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .antes {
+        width: 100%;
+      /*   height: 50vh; */
+        background: #9a8c98;
+        padding: 2%;
+    }
+
+    .imagengente {
+        width: 100%;
+        background-image: url('../images/gente.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .despues {
+        width: 100%;
+        height: 50vh;
+        background-color: #dffdff;
+        padding: 2%;
+    }
+
+    .mifoto {
+        width: 250px;
+    }
+
+    .tresfotos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 1000px;
+    }
+
+    .mistrabajos3 {
+        height: 1000px;
+    }
+    
 }

@@ -1,0 +1,561 @@
+.tituloprincipal {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.tituloprincipal h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 6px 6px 6px grey;
+}
+
+#l1 {
+    position: absolute;
+    top: -100px;
+    left: 15vh;
+    animation-name: mov1;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l1 {
+    top: 70vh;
+    left: 15vh;
+    z-index: 2;
+}
+
+@keyframes mov1 {
+    from {
+        left: 15vh;
+        top: -100px;
+    }
+    to {
+        left: 15vh;
+        top: 70vh;
+    }
+}
+
+#l2 {
+    position: absolute;
+    top: 1000px;
+    left: 37vh;
+    animation-name: mov2;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l2 {
+    top: 70vh;
+    left: 37vh;
+    z-index: 2;
+}
+
+@keyframes mov2 {
+    from {
+        left: 37vh;
+        top: 1000px;
+    }
+    to {
+        left: 37vh;
+        top: 70vh;
+    }
+}
+
+#l3 {
+    position: absolute;
+    top: 70vh;
+    left: 1500px;
+    animation-name: mov3;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l3 {
+    top: 70vh;
+    left: 70vh;
+    z-index: 2;
+}
+
+@keyframes mov3 {
+    from {
+        left: 1500px;
+        top: 70vh;
+    }
+    to {
+        left: 70vh;
+        top: 70vh;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .tituloprincipal h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-shadow: 6px 6px 6px grey;
+    }
+
+    #l1 {
+        position: absolute;
+        top: -100px;
+        left: 15vh;
+        animation-name: mov1;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+    }
+    
+    #l1 {
+        top: 70vh;
+        left: 15vh;
+        z-index: 2;
+    }
+    
+    @keyframes mov1 {
+        from {
+            left: 15vh;
+            top: -100px;
+        }
+        to {
+            left: 15vh;
+            top: 70vh;
+        }
+    }
+    
+    #l2 {
+        position: absolute;
+        top: 1000px;
+        left: 27vh;
+        animation-name: mov2;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+    }
+    
+    #l2 {
+        top: 70vh;
+        left: 27vh;
+        z-index: 2;
+    }
+    
+    @keyframes mov2 {
+        from {
+            left: 27vh;
+            top: 1000px;
+        }
+        to {
+            left: 27vh;
+            top: 70vh;
+        }
+    }
+    
+    #l3 {
+        position: absolute;
+        top: 70vh;
+        left: 1500px;
+        animation-name: mov3;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+    }
+    
+    #l3 {
+        top: 70vh;
+        left: 46vh;
+        z-index: 2;
+    }
+    
+    @keyframes mov3 {
+        from {
+            left: 1500px;
+            top: 70vh;
+        }
+        to {
+            left: 46vh;
+            top: 70vh;
+        }
+    }
+
+}
+
+
+#l1 {
+    position: absolute;
+    top: -100px;
+    left: 15vh;
+    animation-name: mov1;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l1 {
+    top: 70vh;
+    left: 15vh;
+    z-index: 2;
+}
+
+@keyframes mov1 {
+    from {
+        left: 15vh;
+        top: -100px;
+    }
+    to {
+        left: 15vh;
+        top: 70vh;
+    }
+}
+
+#l2 {
+    position: absolute;
+    top: 1000px;
+    left: 37vh;
+    animation-name: mov2;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l2 {
+    top: 70vh;
+    left: 37vh;
+    z-index: 2;
+}
+
+@keyframes mov2 {
+    from {
+        left: 37vh;
+        top: 1000px;
+    }
+    to {
+        left: 37vh;
+        top: 70vh;
+    }
+}
+
+#l3 {
+    position: absolute;
+    top: 70vh;
+    left: 1500px;
+    animation-name: mov3;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l3 {
+    top: 70vh;
+    left: 72vh;
+    z-index: 2;
+}
+
+@keyframes mov3 {
+    from {
+        left: 1500px;
+        top: 70vh;
+    }
+    to {
+        left: 72vh;
+        top: 70vh;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .tituloprincipal h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-shadow: 6px 6px 6px grey;
+    }
+
+    #l1 {
+        position: absolute;
+        top: -100px;
+        left: 15vh;
+        animation-name: mov1;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+    }
+    
+    #l1 {
+        top: 70vh;
+        left: 15vh;
+        z-index: 2;
+    }
+    
+    @keyframes mov1 {
+        from {
+            left: 15vh;
+            top: -100px;
+        }
+        to {
+            left: 15vh;
+            top: 70vh;
+        }
+    }
+    
+    #l2 {
+        position: absolute;
+        top: 1000px;
+        left: 27vh;
+        animation-name: mov2;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+    }
+    
+    #l2 {
+        top: 70vh;
+        left: 27vh;
+        z-index: 2;
+    }
+    
+    @keyframes mov2 {
+        from {
+            left: 27vh;
+            top: 1000px;
+        }
+        to {
+            left: 27vh;
+            top: 70vh;
+        }
+    }
+    
+    #l3 {
+        position: absolute;
+        top: 70vh;
+        left: 1500px;
+        animation-name: mov3;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+    }
+    
+    #l3 {
+        top: 70vh;
+        left: 46vh;
+        z-index: 2;
+    }
+    
+    @keyframes mov3 {
+        from {
+            left: 1500px;
+            top: 70vh;
+        }
+        to {
+            left: 46vh;
+            top: 70vh;
+        }
+    }
+
+}
+
+
+
+
+#l11 {
+    position: absolute;
+    top: -100px;
+    left: 15vh;
+    animation-name: mov11;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l11 {
+    top: 50vh;
+    left: 15vh;
+    z-index: 2;
+}
+
+@keyframes mov11 {
+    from {
+        left: 15vh;
+        top: -100px;
+    }
+    to {
+        left: 15vh;
+        top: 50vh;
+    }
+}
+
+#l12 {
+    position: absolute;
+    top: 1000px;
+    left: 37vh;
+    animation-name: mov12;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l12 {
+    top: 50vh;
+    left: 37vh;
+    z-index: 2;
+}
+
+@keyframes mov12 {
+    from {
+        left: 37vh;
+        top: 1000px;
+    }
+    to {
+        left: 37vh;
+        top: 50vh;
+    }
+}
+
+#l13 {
+    position: absolute;
+    top: 50vh;
+    left: 1500px;
+    animation-name: mov13;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+}
+
+#l13 {
+    top: 50vh;
+    left: 70vh;
+    z-index: 2;
+}
+
+@keyframes mov13 {
+    from {
+        left: 1500px;
+        top: 50vh;
+    }
+    to {
+        left: 70vh;
+        top: 50vh;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .tituloprincipal h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-shadow: 6px 6px 6px grey;
+    }
+
+    #l1 {
+        position: absolute;
+        top: -100px;
+        left: 15vh;
+        animation-name: mov1;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+    }
+    
+    #l1 {
+        top: 70vh;
+        left: 15vh;
+        z-index: 2;
+    }
+    
+    @keyframes mov1 {
+        from {
+            left: 15vh;
+            top: -100px;
+        }
+        to {
+            left: 15vh;
+            top: 70vh;
+        }
+    }
+    
+    #l2 {
+        position: absolute;
+        top: 1000px;
+        left: 27vh;
+        animation-name: mov2;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+    }
+    
+    #l2 {
+        top: 70vh;
+        left: 27vh;
+        z-index: 2;
+    }
+    
+    @keyframes mov2 {
+        from {
+            left: 27vh;
+            top: 1000px;
+        }
+        to {
+            left: 27vh;
+            top: 70vh;
+        }
+    }
+    
+    #l3 {
+        position: absolute;
+        top: 70vh;
+        left: 1500px;
+        animation-name: mov3;
+        animation-duration: 3s;
+        animation-iteration-count: inherit;
+    }
+    
+    #l3 {
+        top: 70vh;
+        left: 46vh;
+        z-index: 2;
+    }
+    
+    @keyframes mov3 {
+        from {
+            left: 1500px;
+            top: 70vh;
+        }
+        to {
+            left: 46vh;
+            top: 70vh;
+        }
+    }
+
+}
+
+
+
+#l15 {
+    position: absolute;
+    top: -1000px;
+    left: 27vh;
+    animation-name: mov15;
+    animation-duration: 4s;
+    animation-iteration-count: inherit;
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+    font-family: cursive;
+}
+
+#l15 {
+    top: 65vh;
+    left: 120vh;
+    z-index: 2;
+}
+
+@keyframes mov15 {
+    from {
+        left: 270vh;
+        top: -1000px;
+    }
+    to {
+        left: 280vh;
+        top: -1000px;
+    }
+    from {
+        left: 280vh;
+        top: -1000px;
+    }
+    to {
+        left: 120vh;
+        top: -1000px;
+    }
+    from {
+        left: 120vh;
+        top: -1000px;
+    }
+    to {
+        left: 120vh;
+        top: 65vh;
+    }
+}
+
