@@ -987,6 +987,10 @@ svg circle:nth-child(2) {
         align-items: center;
     }
 
+    .formulariocontacto article {
+        width: 100%;
+    }
+
     .quinto h3 {
         padding: 10px;
         font-size: 1.1rem;
