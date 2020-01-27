@@ -131,6 +131,21 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: #22223b;
+    box-shadow: 
+    -12px -12px 12px #9a8c98,
+    12px 12px 12px #9a8c98;
+}
+
+.botonformulario {
+    cursor: pointer;
+    margin-bottom: 5px;
+    background: #ff5714;
+    transition: .5s;
+}
+
+.botonformulario:hover {
+    background: #6eeb83;
 }
 
 .formulariocontacto article {
