@@ -93,11 +93,10 @@
             </article>
         </section>
         
-        <section class="contacto">
-            <h2>Contacta conmigo:</h2>
-            <form action="" method="post" class="formulariocontacto">
+        <section id="contacto">
+            <h2>Contacta conmigo: <button class="bdes" onclick="despliega1()">Contacta</button></h2>
+            <form action="" method="post" class="formulariocontacto" id="fourmulario">
                 <article>
-
                     <fieldset>
                         <legend>Nombre</legend>
                         <label for="nombre"></label>
@@ -209,7 +208,7 @@
             <div class="grande">
                 <div class="card">
                     <div class="face front">
-                        <img src="./images/luis-1024x1024.jpg" class="mifoto" alt="">
+                        <img src="./images/luis-1024x1024.jpg" class="mifoto" alt="imagen personal Luis Jurado Quesada">
                     </div>
                     <div class="face back">
                         
@@ -233,15 +232,15 @@
             <h2>Mis trabajos: <span class="icon-stats-dots"></span></h2>
             <div class="mistrabajos3">
                 <div class="imatrabajos">
-                    <img src="./images/juegoiker.png" alt="" class="trestrabajos">
+                    <img src="./images/libroana.png" alt="no te parece raro" class="trestrabajos">
                     <a href="http://juegodeiker.000webhostapp.com/" target="_blank" title="Web juego en JavaScript">El juego de Iker</a>
                 </div>
                 <div class="imatrabajos">
-                    <img src="./images/rspymes.png" alt="" class="trestrabajos">
+                    <img src="./images/rspymes.png" alt="responsabilidad social más pymes" class="trestrabajos">
                     <a href="http://www.rspymes.org/" target="_blank" title="Web rspymes">RS pymes web</a>
                 </div>
                 <div class="imatrabajos">
-                    <img src="./images/viajetarragona.png" alt="" class="trestrabajos">
+                    <img src="./images/viajetarragona.png" alt="fots viaje a Tarragona" class="trestrabajos">
                     <a href="http://viajeatarragona.000webhostapp.com/" target="_blank" title="Web álbum de fotos">Web viaje Tarragona</a>
                 </div>
             </div>
@@ -340,6 +339,38 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-54516992-1');
+        </script>
+        <script>
+            var quita = false;
+            function despliega1() {
+                if (quita != true) {
+                    document.getElementById('fourmulario').style.top = "2vh";
+                    document.getElementById('contacto').style.height = "104vh";
+                    quita = true;
+                } else {
+                    document.getElementById('fourmulario').style.top = "-104vh";
+                    document.getElementById('contacto').style.height = "12vh";
+                    quita = false;
+
+                }
+            }
+/*             function despliega2() {
+                if (quita != true && max-width <= 764) {
+                    document.getElementById('fourmulario').style.top = "2vh";
+                    document.getElementById('contacto').style.height = "204vh";
+                    quita = true;
+                } else if (quita != true && max-width > 764) {
+
+                    document.getElementById('fourmulario').style.top = "2vh";
+                    document.getElementById('contacto').style.height = "104vh";
+                    quita = true;
+                } else {
+                    document.getElementById('fourmulario').style.top = "-204vh";
+                    document.getElementById('contacto').style.height = "12vh";
+                    quita = false;
+
+                }
+            } */
         </script>
 </body>
 </html>
