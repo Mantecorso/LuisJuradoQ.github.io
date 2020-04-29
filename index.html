@@ -18,98 +18,49 @@
     <meta name="geo.position" content="39.4538794;-0.3751453" />
     <meta name="ICBM" content="39.4538794, -0.3751453" />
     <link rel="stylesheet" href="./images/style.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/fotoprincipal.css">
-    <link rel="stylesheet" href="./css/media.css">
-    <link rel="stylesheet" href="./css/titulo.css">
     <link rel="icon" type="image/png" href="./images/favicom/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="./images/favicom/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Mali:400,700&display=swap&subset=latin-ext" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style2020.css">
+    <link rel="stylesheet" href="./css/titulo2020.css">
+
 </head>
 <body>
-    <div class="contenedor">
-        <a name="arriba"></a>
-        <header>
-            <nav class="navegador">
-                <div class="image">
-                    <a href="#arriba" title="Subir"><img src="./images/logoluis.png" width="50px" alt="Logo"></a> 
-                </div>
-                <span class="icon-menu tamano" id="menu" onclick="mostrar()"></span>
+    <main class="supermenu">
+        <header class="navegador">
+            <div class="logo">
+                <a href="#arriba" title="Subir"><img src="./images/logoluis.png" width="50px" alt="Logo"></a> 
+            </div>
+            <nav class="menu">
+                <ul class="doblemenu">
+                    <li class="botones2"><a href="#somos11" class="masbotones">NOSOTROS</a></li>
+                    <li class="botones2"><a href="#trabajos33" class="masbotones">TRABAJOS</a></li>
+                    <li class="botones2"><a href="#redes22" class="masbotones">ENCUÉNTRANOS</a></li>
+                    <li class="botones2"><a href="./blog/blog1.html" target="_blanck" class="masbotones">BLOG</a></li>
+                </ul>
             </nav>
-            <div class="menu2 desplegable" id="menu99">
-                <nav>
-                    <ul>
-                        <li class="botones"><a href="mailto:luisjuradoquesada@gmail.com" class="enlaces">CONTACTA</a></li>
-                        <li class="botones"><a href="#ofrecer" class="enlaces">¿Que ofrecemos?</a></li>
-                        <li class="botones"><a href="#somos" class="enlaces">¿Quienes somos?</a></li>
-                        <li class="botones"><a href="#trabajos" class="enlaces">Nuestros trabajos</a></li>
-                        <li class="botones"><a href="./blog/blog1.html" target="_blank" class="enlaces">Un pequeño blog</a></li>
-                        <li class="botones"><p class="enlaces" onclick="mostrar()">Cerrar</p></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav id="menu2">
+                <span class="icon-menu tamano" id="menu1" onclick="ver()"></span>
+                <div class="menu11">
+                    <p class="botonmenumini" id="cosa1"><a href="#somos11">NOSOTROS</a></p>
+                    <p class="botonmenumini" id="cosa2"><a href="#trabajos33">TRABAJOS</a></p>
+                    <p class="botonmenumini" id="cosa3"><a href="#redes22">ENCUÉNTRANOS</a></p>
+                    <p class="botonmenumini" id="cosa4"><a href="./blog/blog1.html" target="_blanck">BLOG</a></p>
+                    <p class="botonmenumini" id="cosa5"><span onclick="cerrar()">CERRAR</span></p>
+                </div>
+            </nav>
         </header>
-        <section class="cero">
- 
-        </section>
-        <section class="cero2">
-            <div class="tituloprincipal">
-                <h2 class="" id="te1">WEB</h2>
-                <h2 class="" id="te2">DESIGN</h2>
-                <h2 class="" id="te3">and</h2>
-                <h2 class="" id="te4">FULL</h2>
-                <h2 class="" id="te5">STACK</h2>
-                <h2 class="" id="te6">DEVELOPER</h2>
-                <h2 class="" id="te7">Luis</h2>
-                <h2 class="" id="te8">Jurado</h2>
-                <h2 class="" id="te9">Quesada</h2>
-            </div>
-        </section>
-        <main class="primero" id="uno">
-            <div class="tituloprincipal">
-            <!--   <h2>web design and full stack developer</h2>
-                <h2>Luis Jurado Quesada</h2>  --> 
-                <h2 class="titulo" id="l1">W</h2>
-                <h2 class="titulo" id="l2">E</h2>
-                <h2 class="titulo" id="l3">B</h2>
-                <h2 class="titulo" id="l4">D</h2>
-                <h2 class="titulo" id="l5">E</h2>
-                <h2 class="titulo" id="l6">S</h2>
-                <h2 class="titulo" id="l7">I</h2>
-                <h2 class="titulo" id="l8">G</h2>
-                <h2 class="titulo" id="l9">N</h2>
-                <h2 class="titulo" id="l10">a</h2>
-                <h2 class="titulo" id="l11">n</h2>
-                <h2 class="titulo" id="l12">d</h2>
-                <h2 class="titulo" id="l13">F</h2>
-                <h2 class="titulo" id="l14">U</h2>
-                <h2 class="titulo" id="l15">L</h2>
-                <h2 class="titulo" id="l16">L</h2>
-                <h2 class="titulo" id="l17">S</h2>
-                <h2 class="titulo" id="l18">T</h2>
-                <h2 class="titulo" id="l19">A</h2>
-                <h2 class="titulo" id="l20">C</h2>
-                <h2 class="titulo" id="l21">K</h2>
-                <h2 class="titulo" id="l22">D</h2>
-                <h2 class="titulo" id="l23">E</h2>
-                <h2 class="titulo" id="l24">V</h2>
-                <h2 class="titulo" id="l25">E</h2>
-                <h2 class="titulo" id="l26">L</h2>
-                <h2 class="titulo" id="l27">O</h2>
-                <h2 class="titulo" id="l28">P</h2>
-                <h2 class="titulo" id="l29">E</h2>
-                <h2 class="titulo" id="l30">R</h2>
-                <h2 class="titulo" id="l31">Lui<span">s</span> </h2>
-                <h2 class="titulo" id="l32">Jurado</h2>
-                <h2 class="titulo" id="l33">Qu<span>e</span><span>s</span>ada</h2>
-            </div>
-        </main>
-        <section class="segundo fotoprincipal" id="dos">
-
-        </section>
-        <a name="ofrecer"></a> 
-        <section class="sexto" id="seis">
+        <div class="tituloprincipal">
+            <h2 id="l1">Luis</h2>
+            <h2 id="l2">Jurado</h2>
+            <h2 id="l3">Quesada</h2>
+            <!-- <h4 id="l15">In Valencia</h4> -->
+            <main class="imagenprincipal"></main>
+        </div>
+    </main>
+    <section class="container">
+        <section class="tres">
             <article class="trio">
                 <h3><span class="icon-display tamano4"></span></h3>
                 <h3>Diseño WEB</h3>
@@ -141,264 +92,286 @@
                 </p>
             </article>
         </section>
-        <section class="tercero" id="tres">
-            <div class="fondo-fix">
+        
+<!--         <section id="contacto">
+            <h2>Contacta conmigo: <button class="bdes" onclick="despliega1()">Contacta</button></h2>
+            <form action="" method="post" class="formulariocontacto" id="fourmulario">
+                <article>
+                    <fieldset>
+                        <legend>Nombre</legend>
+                        <label for="nombre"></label>
+                        <input type="text" name="nombre" id="" placeholder="Escribe tu nombre" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Correo electrónico</legend>
+                        <label for="correo"></label>
+                        <input type="email" name="" id="" placeholder="Escribe tu correo electrónico" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Teléfono</legend>
+                        <label for="telefono"></label>
+                        <input type="tel" name="telefono" id="" placeholder="Escribe tu número de teléfono">
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" value="ENVIAR" class="botonformulario">
+                        <input type="reset" value="BORRAR" class="botonformulario">
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Pregúntanos</legend>
+                        <label for="preguntas"></label>
+                        <textarea name="preguntas" id="" cols="30" rows="10" placeholder="Escribe tus preguntas, sugerencias y comentarios..."></textarea>
+                    </fieldset>
+                </article>
+            </form>
+        </section> -->
 
+        <section class="imagendos"></section>
+        <section class="frase">
+            <h2>
+                Creo webs atractivas y funcionales adaptadas a su gusto y necesidades.
+            </h2>
+        </section>
+        <section class="tresfotos">
+            <article class="fotos3 varios3">
+                <p>Montaje, reparación y mantenimientos de equipos informáticos. Instalacion de sistemas operativos. Backups. Copias de seguridad.
+                    <br> <br>
+                    <span class="icon-keyboard icono"></span>
+                </p>
+            </article>
+            <article class="fotos3 varios3">
+                <p>Montaje, diagnostico y mantenimiento de redes. RAID, servidores.
+                    <br> <br>
+                    <span class="icon-database icono"></span>
+                </p>
+            </article>
+            <article class="fotos3 varios3">
+                <p>Diseño y publicación de páginas Web. Angular, Vue, bases de datos, bootstrap.
+                    <br> <br>
+                    <span class="icon-users icono"></span>
+                </p>
+            </article>
+        </section>
+<!--         <section class="doble2">
+            <article class="antes"></article>
+            <article class="despues"></article>
+        </section> -->
+        <section class="threetotal">
+            <div class="threecontainer">
+                <div class="threecard">
+                    <div class="threebox">
+                        <div class="threepercent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="numberthree">
+                                <h2>92<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="texthree">Html</h2>
+                    </div>
+                </div>
+                <div class="threecard">
+                    <div class="threebox">
+                        <div class="threepercent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="numberthree">
+                                <h2>89<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="texthree">CSS</h2>
+                    </div>
+                </div>
+                <div class="threecard">
+                    <div class="threebox">
+                        <div class="threepercent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="numberthree">
+                                <h2>61<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="texthree">JavaScript</h2>
+                    </div>
+                </div>
             </div>
         </section>
-        <a name="somos"></a>
-        <section class="intermedio" id="noventa"> <h2>Trabajamos contigo y te acompañamos en el crecimiento de tu negocio.</h2></section>
-        <section class="cuarto fondoweb" id="cuatro">
-            <article class="cuartoA">
-              <img src="./images/luis-1024x1024.jpg" width="100%" alt="Luis Jurado quesada" title="Luis Jurado Quesada">  
+        <a name="somos11"></a>
+        <section class="personal">
+            <h3>Nosotros:</h3>
+            <div class="grande">
+                <div class="card">
+                    <div class="face front">
+                        <img src="./images/luis-1024x1024.jpg" class="mifoto" alt="imagen personal Luis Jurado Quesada">
+                    </div>
+                    <div class="face back">
+                        
+                        <p>
+                            
+                            Curso Adobe DreamWeaver, HTML, CSS y JavaScript. Academia Trébol. <br> <br>
+                            Full Stack Developer. GeeksHubs Academy. <br> <br>
+                            Google Analitycs. Academia Trébol. <br> <br>
+                            PHP, SQL, JavaScript. Academia Beta Formación. <br> <br>
+                            Diseño y confección de páginas WEB. SERVEF. <br> <br>
+                            Desarrollo en Aplicaciones Web (DAW). <br> <br>
+                            Auxiliar montaje y reparación de ordenadores. SERVEF <br> <br>
+                            CCNA CISCO network, Academia Aulacampus. <br> <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a name="trabajos33"></a>
+        <section class="secondcontainer">
+            <h2>Mis trabajos: <span class="icon-stats-dots"></span></h2>
+            <div class="mistrabajos3">
+                <div class="imatrabajos">
+                    <img src="./images/juegoiker.png" alt="no te parece raro" class="trestrabajos">
+                    <a href="http://juegodeiker.000webhostapp.com/" target="_blank" title="Web juego en JavaScript">El juego de Iker</a>
+                </div>
+                <div class="imatrabajos">
+                    <img src="./images/rspymes.png" alt="responsabilidad social más pymes" class="trestrabajos">
+                    <a href="http://www.rspymes.org/" target="_blank" title="Web rspymes">RS pymes web</a>
+                </div>
+                <div class="imatrabajos">
+                    <img src="./images/viajetarragona.png" alt="fots viaje a Tarragona" class="trestrabajos">
+                    <a href="http://viajeatarragona.000webhostapp.com/" target="_blank" title="Web álbum de fotos">Web viaje Tarragona</a>
+                </div>
+            </div>
+        </section>
+        <section class="transicion">
+            <article class="despues">
+                <h4>Enlaces amigos: <span class="icon-happy2"></span></h4>
+                <article>
+                    <a href="http://horizontesinfinitos.x10.bz" target="_blank" rel="noopener noreferrer">Horizontes infinitos</a>
+                </article>
+                <article>
+                    <a href="http://duxluxartdream.dx.am" target="_blank" rel="noopener noreferrer">Dux Lux Art Dream</a>
+                </article>
+                <article>
+                    <a href="http://rutishirt.com" target="_blank" rel="noopener noreferrer">Rutishirt</a>
+                </article>
+                <article>
+                    <a href="https://lafisicadelgrel.blogspot.com/" target="_blank" rel="noopener noreferrer">La física del GREL</a>
+                </article>
             </article>
-            <article class="cuartoB">
-                <ul>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="unoa()">Estudios</p>
-                        <div class="tapa3" onclick="unoa()"></div>
-                    </li>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="unob()">Experiencia</p>
-                        <div class="tapa3" onclick="unob()"></div>
-                    </li>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="unoc()">Aficiones</p>
-                        <div class="tapa3" onclick="unoc()"></div>
-                    </li>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="unod()">Conocimientos</p>
-                        <div class="tapa3" onclick="unod()"></div>
-                    </li>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="unoe()">Vida personal</p>
-                        <div class="tapa3" onclick="unoe()"></div>
-                    </li>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="unof()">Otros</p>
-                        <div class="tapa3" onclick="unof()"></div>
-                    </li>
-                </ul>
-            </article>
-            <article class="cuartoD">
-                <ul>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="dosa()">Estudios</p>
-                        <div class="tapa3" onclick="dosa()"></div>
-                    </li>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="dosb()">Experiencia</p>
-                        <div class="tapa3" onclick="dosb()"></div>
-                    </li>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="dosc()">Aficiones</p>
-                        <div class="tapa3" onclick="dosc()"></div>
-                    </li>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="dosd()">Conocimientos</p>
-                        <div class="tapa3" onclick="dosd()"></div>
-                    </li>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="dose()">Vida personal</p>
-                        <div class="tapa3" onclick="dose()"></div>
-                    </li>
-                    <li class="botonesM">
-                        <p class="cosas" onclick="dosf()">Otros</p>
-                        <div class="tapa3" onclick="dosf()"></div>
-                    </li>
-                </ul>
-            </article>
-            <div class="desplegable menu11" id="menu88">
-                <p>
-                    Curso Adobe DreamWeaver, HTML, CSS y JavaScript. Academia Trébol. <br> <br>
-                    Full Stack Developer. GeeksHubs Academy. <br> <br>
-                    Google Analitycs. Academia Trébol. <br> <br>
-                    PHP, SQL, JavaScript. Academia Beta Formación. <br> <br>
-                    Diseño y confección de páginas WEB. SERVEF. <br> <br>
-                    Desarrollo en Aplicaciones Web (DAW). <br> <br>
-                </p>
-                <div class="boton11">
-                    <p class="cosas" onclick="dosa()">Cerrar</p>
-                    <div class="tapa4" onclick="dosa()"></div>
-                </div>
-                
-            </div>
-            <div class="desplegable menu11" id="menu87">
-                <p>
-                    Quince años de experiencia, trabajando en diferentes sectores. <br> <br>
-                    Incluyendo el liderazgo y la gestión de equipos, ventas, inventarios, etc. <br> <br>
-                    Más de 8 años en Carrefour como jefe de sección comercial. <br> <br>
-                    Dos años y medio trabajando en Inglaterra. <br> <br>
-                </p>
-                <div class="boton11">
-                    <p class="cosas" onclick="dosb()">Cerrar</p>
-                    <div class="tapa4" onclick="dosb()"></div>
-                </div>
-                
-            </div>
-            <div class="desplegable menu11" id="menu86">
-                <p>
-                    El deporte en general y el ciclismo y el running en particular. <br> <br>
-                    También me gusta la ciencia, (soy miembro del grupo de divulgación científica "<a href="https://lafisicadelgrel.blogspot.com/">La física del GREL</a>").  <br> <br>
-                    La lectura y los juegos de mesa tambien forman parte de mis aficiones. <br> <br>
-                </p>
-                <div class="boton11">
-                    <p class="cosas" onclick="dosc()">Cerrar</p>
-                    <div class="tapa4" onclick="dosc()"></div>
-                </div>
-                
-            </div>
-            <div class="desplegable menu11" id="menu85">
-                <p>
-                    Mysql, mongodb, mariadb. oracle. <br> <br>
-                    HTML5, CSS3, Bootstrap, Minimalize, Bulma. <br> <br>
-                    JavaScript, Jquery, Angular, React, Vue, ElectronJS. <br> <br>
-                    GIT, NodeJS, Express. <br> <br>
-                    Google Analitycs, Mailrelay, SEO. <br> <br>
-                    Scrum, Agile. <br> <br>
-                    PHP <br> <br>
-                </p>
-                <div class="boton11">
-                    <p class="cosas" onclick="dosd()">Cerrar</p>
-                    <div class="tapa4" onclick="dosd()"></div>
-                </div>
-                
-            </div>
-            <div class="desplegable menu11" id="menu84">
-                <p>
-                    Actualmemte resido en Valencia (España), 
-                    aunque he residido por temas laborales en diferentes lugares de la geografía española, 
-                    e incluso en el extranjero. <br> <br>
+            <article class="antes imagengente">
 
-                </p>
-                <div class="boton11">
-                    <p class="cosas" onclick="dose()">Cerrar</p>
-                    <div class="tapa4" onclick="dose()"></div>
-                </div>
-                
-            </div>
-            <div class="desplegable menu11" id="menu83">
-                <p>
-                    Carnet de conducir B1. <br> <br>
-
-                </p>
-                <div class="boton11">
-                    <p class="cosas" onclick="dosf()">Cerrar</p>
-                    <div class="tapa4" onclick="dosf()"></div>
-                </div>
-                
-            </div>
-            <article class="cuartoC">
-                <div class="difposition" id="varios1">
-                    <p>
-                        Curso Adobe DreamWeaver, HTML, CSS y JavaScript. Academia Trébol. <br> <br>
-                        Full Stack Developer. GeeksHubs Academy. <br> <br>
-                        Google Analitycs. Academia Trébol. <br> <br>
-                        PHP, SQL, JavaScript. Academia Beta Formación. <br> <br>
-                        Diseño y confección de páginas WEB. SERVEF. <br> <br>
-                        Desarrollo en Aplicaciones Web (DAW). <br> <br>
-
-                    </p>
-                </div>
-                <div class="difposition" id="varios2">
-                    <p>
-                        Quince años de experiencia en diferentes sectores. <br> <br>
-                        Incluyendo el liderazgo y la gestión de equipos, ventas, inventarios, etc. <br> <br>
-
-                    </p>
-                </div>
-                <div class="difposition" id="varios3">
-                    <p>
-                        El deporte en general y el ciclismo y el running en particular. <br> <br>
-                        También me gusta la ciencia, (soy miembro del grupo de divulgación científica "<a href="https://lafisicadelgrel.blogspot.com/">La física del GREL</a>").  <br> <br>
-                        La lectura y los juegos de mesa tambien forman parte de mis aficiones. <br> <br>
-                    </p>
-                </div>
-                <div class="difposition" id="varios4">
-                    <p>
-                        Mysql, mongodb, mariadb. oracle. <br> <br>
-                        HTML5, CSS3, Bootstrap, Minimalize, Bulma. <br> <br>
-                        JavaScript, Jquery, Angular, React, Vue, ElectronJS. <br> <br>
-                        GIT, NodeJS, Express. <br> <br>
-                        Google Analitycs, Mailrelay, SEO. <br> <br>
-                        Scrum, Agile. <br> <br>
-                        PHP <br> <br>
-                    </p>
-                </div>
-                <div class="difposition" id="varios5">
-                    <p>
-                        Actualmemte resido en Valencia (España), 
-                        aunque he residido por temas laborales en diferentes lugares, 
-                        incluida Inglaterra.
-                    </p>
-                </div>
-                <div class="difposition" id="varios6">
-                    <p>
-                        Carnet de conducir B1. <br> <br>
-
-                    </p>
-                </div>
             </article>
         </section>
         
-        <section class="quinto fotosecundaria" id="cinco">
+      <!--   <section class="trabajos">
+            <article class="pos8">
+                <h4>Mis trabajos: <span class="icon-stats-dots"></span></h4>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./images/juegoiker.png" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/rspymes.png" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/viajetarragona.png" alt="Third slide">
+                      </div>
+                    </div>
+                  </div>
+            </article>
+            <article class="pos9">
+                <h4>Enlaces amigos: <span class="icon-happy2"></span></h4>
+                <article>
+                    <a href="http://horizontesinfinitos.x10.bz" target="_blank" rel="noopener noreferrer">Horizontes infinitos</a>
+                </article>
+                <article>
+                    <a href="http://duxluxartdream.dx.am" target="_blank" rel="noopener noreferrer">Dux Lux Art Dream</a>
+                </article>
+                <article>
+                    <a href="http://rutishirt.com" target="_blank" rel="noopener noreferrer">Rutishirt</a>
+                </article>
+            </article>
+        </section> -->
+        <section class="interactivo">
+            
+        </section>
+        <section class="quinto fotosecundaria">
             <article>
                 <h3>Contacta conmigo en:</h3>
                 <h3>luisjuradoquesada@gmail.com</h3>
                 <h3>Presupuestos sin compromiso.</h3>
             </article>
         </section>
-        <nav class="redes">
+        <a name="redes22"></a>
+        <section class="redes">
             <ul>
-                <li><a href="mailto:luisjuradoquesada@gmail.com" target="_blank"><span class="icon-mail2 tamano2"></span></a></li>
                 <li><a href="https://www.instagram.com/luisjuradoquesada/" target="_blank"><span class="icon-instagram tamano2"></span></a></li>
                 <li><a href="https://github.com/Mantecorso" target="_blank"><span class="icon-github tamano2"></span></a></li>
                 <li><a href="https://www.linkedin.com/in/luis-jurado-quesada/" target="_blank"><span class="icon-linkedin tamano2"></span></a></li>
             </ul>
-            <small class="lugar"> <span class="icon-lock" tamano3></span>Luis Jurado Quesada 2019.</small>
-        </nav>
-        <a name="trabajos"></a>
-        <footer class="ultimo" id="fin">
-            <section class="footertres">
-                <h3>Mis trabajos: <span class="icon-stats-dots"></span></h3>
-                <a href="http://www.rspymes.org/" target="_blank" title="Web rspymes">
-                    <div class="imagen">
-                        <img src="./images/rspymes.png" alt="rspymes">
-                    </div>
-                </a>
-                <a href="http://juegodeiker.000webhostapp.com/" target="_blank" title="Web juego en JavaScript">
-                    <div class="imagen">
-                        <img src="./images/juegoiker.png" alt="El juego de Iker">
-                    </div>
-                </a>
-                <a href="http://viajeatarragona.000webhostapp.com/" target="_blank" title="Web álbum de fotos">
-                    <div class="imagen">
-                        <img src="./images/viajetarragona.png" alt="Viaje a Tarragona">
-                    </div>
-                </a>
-            </section>
-            <section class="footertres">
-                <h3>Enlaces amigos: <span class="icon-happy2"></span></h3>
-                <article>
-                    <a href="http://horizontesinfinitos.x10.bz" target="_blank" rel="noopener noreferrer">Horizontes infinitos</a>
-                </article>
-                <article><a href="http://duxluxartdream.dx.am" target="_blank" rel="noopener noreferrer">Dux Lux Art Dream</a></article>
-                <article>
-                    <a href="http://rutishirt.com" target="_blank" rel="noopener noreferrer">Rutishirt</a> 
-                </article>
-            </section>
-            <section class="footertres">
-                <h3>¿Donde encontrarme? <span class="icon-location"></span></h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d769.8267151164068!2d-0.39551987078807915!3d39.484985033770776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f6014ca6353%3A0x54e3da3844e4f28e!2sAv.+de+Pius+XII%2C+24%2C+46035+Val%C3%A8ncia!5e0!3m2!1ses!2ses!4v1565432470234!5m2!1ses!2ses" frameborder="0" class="mapaframe" allowfullscreen></iframe>
-                <article></article>
-                <article></article>
-                <article></article>
-            </section>
-        </footer>
-    </div>
-    
-    <script src="./js/main.js"></script>
-    <script src="./js/second.js"></script>
-    <script src="./js/curriculum.js"></script>
+        </section>
+        <section class="mapa">
+            <h3>¿Donde encontrarme? <span class="icon-location"></span></h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d769.8267151164068!2d-0.39551987078807915!3d39.484985033770776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f6014ca6353%3A0x54e3da3844e4f28e!2sAv.+de+Pius+XII%2C+24%2C+46035+Val%C3%A8ncia!5e0!3m2!1ses!2ses!4v1565432470234!5m2!1ses!2ses" frameborder="0" class="mapaframe" allowfullscreen></iframe>
+        </section>
+    </section>
+    <footer>
+        <section class="copyluis">
+            <small>Copyright &copy Luis Jurado Quesada 2020.</small>
+        </section>
+    </footer>
+    <span class="icon-arrow-up up"></span>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/despliegue.js"></script>
+    <script src="./js/flecha.js"></script>
+
+<!--         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54516992-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-54516992-1');
+        </script>
+        <script>
+            var quita = false;
+            function despliega1() {
+                if (quita != true) {
+                    document.getElementById('fourmulario').style.top = "2vh";
+                    document.getElementById('contacto').style.height = "104vh";
+                    quita = true;
+                } else {
+                    document.getElementById('fourmulario').style.top = "-104vh";
+                    document.getElementById('contacto').style.height = "12vh";
+                    quita = false;
+
+                }
+            }
+/*             function despliega2() {
+                if (quita != true && max-width <= 764) {
+                    document.getElementById('fourmulario').style.top = "2vh";
+                    document.getElementById('contacto').style.height = "204vh";
+                    quita = true;
+                } else if (quita != true && max-width > 764) {
+
+                    document.getElementById('fourmulario').style.top = "2vh";
+                    document.getElementById('contacto').style.height = "104vh";
+                    quita = true;
+                } else {
+                    document.getElementById('fourmulario').style.top = "-204vh";
+                    document.getElementById('contacto').style.height = "12vh";
+                    quita = false;
+
+                }
+            } */
+        </script>
 </body>
 </html>
