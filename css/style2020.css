@@ -8,6 +8,7 @@
 body {
     background: #22223b;
     color: #f2e9e4;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 /*     background: #1e1e1e;
     color: #e4e6c3; */
 }
@@ -64,8 +65,6 @@ body {
 .tamano {
     font-size: 3rem;
 }
-
-
 
 #menu2 {
     display: none;
