@@ -118,7 +118,7 @@ body {
 }
 
 .trio:hover h3 {
-    color: #2bdddd;
+    color: #0f9c9c;
 }
 
 .trio h3 {
@@ -161,6 +161,7 @@ body {
 
 .bdes:hover {
     background: #1be7ff;
+    
 }
 
 .formulariocontacto {
