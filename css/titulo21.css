@@ -1,0 +1,206 @@
+
+#l1 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov1;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+    animation-fill-mode: forwards;
+}
+/* 
+#l1 {
+    top: 70px;
+    left: 135px;
+} */
+
+@keyframes mov1 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 15%;
+        top: 80%;
+        text-shadow: 2px 2px 1px #1e1e1e;
+        font-size: 3rem;
+    }
+}
+
+/* REVISAR PARA FIREFOX */
+
+
+#l2 {
+    position: absolute;
+    top: 100px;
+    left: 1500px;
+    animation-name: mov2;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+    animation-fill-mode: forwards;
+}
+/* 
+#l2 {
+    left: 175px;
+    top: 70px;
+} */
+
+@keyframes mov2 {
+    from {
+        left: 1500px;
+        top: 200px;
+    }
+    to {
+        left: 22%;
+        top: 80%;
+        text-shadow: 2px 2px 1px #db3069;
+        font-size: 3rem;
+    }
+}
+
+#l3 {
+    position: absolute;
+    top: -100px;
+    left: 1500px;
+    animation-name: mov3;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+    animation-fill-mode: forwards;
+}
+/* 
+#l3 {
+    left: 200px;
+    top: 70px;
+} */
+
+@keyframes mov3 {
+    from {
+        left: 1500px;
+        top: -100px;
+    }
+    to {
+        left: 32%;
+        top: 80%;
+        text-shadow: 2px 2px 1px #52489c;
+        font-size: 3rem;
+    }
+}
+
+#cor1 {
+    animation: mov4 2s ease-in;
+}
+
+@keyframes mov4 {
+    from {
+        top: 0;
+        left: 100%;
+    }
+    to {
+        top: 0;
+        left: -100%;
+    }
+}
+
+#cab1 {
+    animation: mov5 2s ease-in 1s forwards;
+}
+
+@keyframes mov5 {
+    0% {
+        top: 5%;
+        left: 100%;
+        transform: scale(.5,.5) skew(15deg);
+    }
+    25% {
+        top: 5%;
+        left: 75%;
+        transform: scale(.5,.5) skew(15deg);
+    }
+    50% {
+        top: 5%;
+        left: 50%;
+        transform: scale(.5,.5) skew(15deg);
+    }
+    75% {
+        top: 5%;
+        left: 25%;
+        transform: scale(.5,.5) skew(15deg);
+    }
+    100% {
+        top: 5%;
+        left: 10%;
+        transform: scale(1,1) skew(0deg);
+        box-shadow: 0 0 0 5px #cad2c5;
+    }
+}
+
+#bordes {
+    animation: mov6 3s ease-in 1s forwards;
+}
+
+@keyframes mov6 {
+    0% {
+        top: -100%;
+        left: 5%;
+        
+    }
+    25% {
+        top: -75%;
+        left: 5%;
+        
+    }
+    50% {
+        top: -50%;
+        left: 5%;
+        
+    }
+    75% {
+        top: -25%;
+        left: 5%;
+       
+    }
+    100% {
+        top: 2.5%;
+        left: 5%;
+        
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    @keyframes mov1 {
+        from {
+            left: 1500px;
+            top: -100px;
+        }
+        to {
+            left: 15%;
+            top: 60%;
+            text-shadow: 2px 2px 1px #1e1e1e;
+            font-size: 2rem;
+        }
+    }
+    @keyframes mov2 {
+        from {
+            left: 1500px;
+            top: 200px;
+        }
+        to {
+            left: 15%;
+            top: 70%;
+            text-shadow: 2px 2px 1px #db3069;
+            font-size: 2rem;
+        }
+    }
+    @keyframes mov3 {
+        from {
+            left: 1500px;
+            top: -100px;
+        }
+        to {
+            left: 15%;
+            top: 80%;
+            text-shadow: 2px 2px 1px #52489c;
+            font-size: 2rem;
+        }
+    }
+}

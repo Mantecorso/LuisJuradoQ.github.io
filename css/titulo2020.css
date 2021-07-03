@@ -3,8 +3,9 @@
     height: 90vh;
     overflow: hidden;
     position: relative;
-    top: 0;
-    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tituloprincipal h2 {
