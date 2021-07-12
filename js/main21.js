@@ -1,8 +1,10 @@
-alert('Tu pantalla mide'+this.screen.width);
+//alert('Tu pantalla mide'+this.screen.width);
 
 window.addEventListener('load', function () {
     
     // menu navegador movil
+    // ojo movil 360 pixel
+
     var poner1;
     poner1 = false;
     document.getElementById('menu1').addEventListener('click', function () {
@@ -39,9 +41,9 @@ window.addEventListener('load', function () {
     document.getElementById('volver').addEventListener('click', function () {
 
         if (mostrar1 == false) {
-            document.getElementById('web1').style.left = "20%";
-            document.getElementById('web2').style.left = "20%";
-            document.getElementById('web3').style.left = "20%";
+            document.getElementById('web1').style.left = "10%";
+            document.getElementById('web2').style.left = "10%";
+            document.getElementById('web3').style.left = "10%";
             // document.getElementById('web4').style.left = "20%";
             mostrar1 = true;
         } else {
@@ -142,18 +144,21 @@ window.addEventListener('load', function () {
 
 
 
-    if (window.screenX.width < 935) {
+    if (window.screen.width < 935) {
 
-            //para tamaño tablet y movil
+            //para tamaño tablet y movil 
+
             window.addEventListener('scroll', function () {
+
                 if (scrollY >= 200 && scrollY <= 550) {
                     //titulo diseño web
                     document.getElementById('tit2').style.left = "10%";
                 } else {
                     document.getElementById('tit2').style.left = "-100%";
                 }
+                7
                 if (scrollY >= 970 && scrollY <= 1700) {
-                    alert('hola caracola');
+                    //alert('hola caracola');
                     //trabajos
                     document.getElementById('trab2').style.opacity = "1";
                 } else {
@@ -162,7 +167,7 @@ window.addEventListener('load', function () {
         
                 if (scrollY >= 3700 && scrollY <= 4600) {
                     //quiensoy
-                    document.getElementById('ima1').style.left = "1%";
+                    document.getElementById('ima1').style.left = "5%";
                 } else {
                     document.getElementById('ima1').style.left = "-100%";
                 }
@@ -175,41 +180,43 @@ window.addEventListener('load', function () {
                 }
             })
 
-    } else {
+        } else {
 
-            // movimiento de divs e imagenes segun el scroll tamaño grande
+                // movimiento de divs e imagenes segun el scroll tamaño grande
 
-        window.addEventListener('scroll', function () {
-            if (scrollY >= 400 && scrollY <= 1100) {
-            document.getElementById('tit2').style.left = "10%";
-        } else {
-            document.getElementById('tit2').style.left = "-100%";
-        }
-        if (scrollY >= 1370 && scrollY <= 2000) {
-            document.getElementById('trab2').style.opacity = "1";
-        } else {
-            document.getElementById('trab2').style.opacity = "0";
-        }
-    
-        if (scrollY >= 4300 && scrollY <= 4900) {
-            document.getElementById('ima1').style.left = "1%";
-            document.getElementById('ima2').style.left = "26%";
-            document.getElementById('ima3').style.left = "51%";
-            document.getElementById('ima4').style.left = "76%";
-    
-        } else {
-            document.getElementById('ima1').style.left = "-100%";
-            document.getElementById('ima2').style.left = "-100%";
-            document.getElementById('ima3').style.left = "-100%";
-            document.getElementById('ima4').style.left = "-100%";
-        }
-    
-        if (scrollY >= 2800 && scrollY <= 3333) {
-            document.getElementById('nuevo2').style.left = "15%";
-        } else {
-            document.getElementById('nuevo2').style.left = "-100%";
-        }
-    })
+            window.addEventListener('scroll', function () {
+
+                    if (scrollY >= 400 && scrollY <= 1100) {
+                    document.getElementById('tit2').style.left = "10%";
+                } else {
+                    document.getElementById('tit2').style.left = "-100%";
+                }
+                
+                if (scrollY >= 1370 && scrollY <= 2000) {
+                    document.getElementById('trab2').style.opacity = "1";
+                } else {
+                    document.getElementById('trab2').style.opacity = "0";
+                }
+            
+                if (scrollY >= 4300 && scrollY <= 4900) {
+                    document.getElementById('ima1').style.left = "1%";
+                    document.getElementById('ima2').style.left = "26%";
+                    document.getElementById('ima3').style.left = "51%";
+                    document.getElementById('ima4').style.left = "76%";
+            
+                } else {
+                    document.getElementById('ima1').style.left = "-100%";
+                    document.getElementById('ima2').style.left = "-100%";
+                    document.getElementById('ima3').style.left = "-100%";
+                    document.getElementById('ima4').style.left = "-100%";
+                }
+            
+                if (scrollY >= 2800 && scrollY <= 3333) {
+                    document.getElementById('nuevo2').style.left = "15%";
+                } else {
+                    document.getElementById('nuevo2').style.left = "-100%";
+                }
+            })
     }
 
 //cambio colores de fondo, claro oscuro
