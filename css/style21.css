@@ -252,7 +252,7 @@ main {
 
 #tit2 {
     position: absolute;
-    top: 46%;
+    top: 36%;
     left: -100%;
     transition: .7s ease-in;
 }
@@ -753,6 +753,10 @@ main {
 .imagenpersonal a {
     font-weight: bold;
     display: block;
+}
+
+.subraya {
+    text-shadow: 1px 1px 1px black;
 }
 
 /* .imagenpersonal img:hover {
@@ -1475,7 +1479,7 @@ main {
         height: 50%;
         box-shadow: 10px 10px 10px gray;
         background-color: var(--color4);
-        padding: 50px;
+        padding: 5px;
         transition: .7s ease;
     }
 }

@@ -41,9 +41,9 @@ window.addEventListener('load', function () {
     document.getElementById('volver').addEventListener('click', function () {
 
         if (mostrar1 == false) {
-            document.getElementById('web1').style.left = "10%";
-            document.getElementById('web2').style.left = "10%";
-            document.getElementById('web3').style.left = "10%";
+            document.getElementById('web1').style.left = "5%";
+            document.getElementById('web2').style.left = "5%";
+            document.getElementById('web3').style.left = "5%";
             // document.getElementById('web4').style.left = "20%";
             mostrar1 = true;
         } else {
@@ -150,7 +150,7 @@ window.addEventListener('load', function () {
 
                 if (scrollY >= 200 && scrollY <= 550) {
                     //titulo diseño web
-                    document.getElementById('tit2').style.left = "5%";
+                    document.getElementById('tit2').style.left = "1%";
                 } else {
                     document.getElementById('tit2').style.left = "-100%";
                 }
