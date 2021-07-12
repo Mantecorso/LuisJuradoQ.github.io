@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --color1: #2f3047;
+            --color2: #98b9ab;
+            --color3: #9bc995;
+            --color4: #5171a5;
+            --color5: #eef36a;
+        }
+
+        .secreto {
+            --color1: #dfd9e2;
+    --color2: #2a7f62;
+    --color3: #c3acce;
+    --color4: #89909f;
+    --color5: #538083;
+        }
+
+
+
+
+        .fondo {
+            background-color: var(--color1);
+            width: 100%;
+            height: 100vh;
+        }
+
+        .fondo h1 {
+            color: var(--color5);
+        }
+    </style>
+    <script>
+            var cambioya;
+            cambioya = false;
+      function cambiaFondo() {
+
+            var corto;
+
+            corto = document.documentElement;
+                if (cambioya == false) {
+                    corto.style.setProperty('--color1', '#dfd9e2');
+                    corto.style.setProperty('--color2', '#2a7f62');
+                    corto.style.setProperty('--color3', '#c3acce');
+                    corto.style.setProperty('--color4', '#89909f');
+                    corto.style.setProperty('--color5', '#538083');
+                    cambioya = true;
+                } else {
+                    corto.style.setProperty('--color1', '#2f3047');
+                    corto.style.setProperty('--color2', '#98b9ab');
+                    corto.style.setProperty('--color5', '#9bc995');
+                    corto.style.setProperty('--color4', '#5171a5');
+                    corto.style.setProperty('--color3', '#eef36a');
+                    cambioya = false;
+                }
+
+
+      }     
+      
+      
+
+    </script>
+</head>
+<body>
+    <div class="fondo">
+        <h1>hola caracola</h1>
+        <button id="cambia" onclick="cambiaFondo()">CAMBIAR</button>
+    </div>
+</body>
+</html>

@@ -129,23 +129,6 @@ window.addEventListener('load', function () {
         } else {
             document.getElementById('trab2').style.opacity = "0";
         }
-/*         if (scrollY >= 3000 && scrollY <= 4150) {
-            document.getElementById('cont1').style.left = "2%";
-            document.getElementById('cont2').style.left = "40%";
-            document.getElementById('cont3').style.left = "40%";
-            document.getElementById('cont4').style.left = "0%";
-            document.getElementById('cont2').style.top = "20%";
-            document.getElementById('cont3').style.top = "50%";
-            document.getElementById('cont4').style.top = "51%";
-        } else {
-            document.getElementById('cont1').style.left = "120%";
-            document.getElementById('cont2').style.left = "120%";
-            document.getElementById('cont3').style.left = "120%";
-            document.getElementById('cont4').style.left = "0";
-            document.getElementById('cont2').style.top = "20%";
-            document.getElementById('cont3').style.top = "50%";
-            document.getElementById('cont4').style.top = "51%";
-        } */
 
         if (scrollY >= 4300 && scrollY <= 4900) {
             document.getElementById('ima1').style.left = "1%";
@@ -168,100 +151,29 @@ window.addEventListener('load', function () {
 
         // if (screenY >= 935) {
         //     if (scrollY >= 1800 && scrollY <= 3150) {
-        //         document.getElementById('op1').style.left = "40%";
-        //         document.getElementById('op2').style.top = "5%";
-        //         document.getElementById('opt1').style.left = "10%";
-        //         document.getElementById('opt2').style.left = "10%";
-        //         document.getElementById('opt3').style.left = "10%";
-    
-        //     } else {
-        //         document.getElementById('op1').style.left = "-100%";
-        //         document.getElementById('op2').style.top = "-100%";
-        //         document.getElementById('opt1').style.left = "120%";
-        //         document.getElementById('opt2').style.left = "120%";
-        //         document.getElementById('opt3').style.left = "120%";
-    
-        //     }
-        // } else {
-        //     document.getElementById('op1').style.position = "static";
-        //     document.getElementById('op2').style.position = "static";
-        //     document.getElementById('opt1').style.position = "static";
-        //     document.getElementById('opt2').style.position = "static";
-        //     document.getElementById('opt3').style.position = "static";
-        // }
 
-        // if (scrollY >= 1800 && scrollY <= 3150) {
-        //     document.getElementById('op1').style.left = "40%";
-        //     document.getElementById('op2').style.top = "5%";
-        //     document.getElementById('opt1').style.left = "10%";
-        //     document.getElementById('opt2').style.left = "10%";
-        //     document.getElementById('opt3').style.left = "10%";
-
-        // } else {
-        //     document.getElementById('op1').style.left = "-100%";
-        //     document.getElementById('op2').style.top = "-100%";
-        //     document.getElementById('opt1').style.left = "120%";
-        //     document.getElementById('opt2').style.left = "120%";
-        //     document.getElementById('opt3').style.left = "120%";
-
-        // }
-
-
-        // window.addEventListener('screen', function () {
-           
-            // if (screenX >= 535) {
-            //     if (scrollY >= 4300 && scrollY <= 5600) {
-            //         document.getElementById('ima1').style.left = "5%";
-            //         document.getElementById('ima2').style.left = "5%";
-            //         document.getElementById('ima3').style.left = "5%";
-            //         document.getElementById('ima4').style.left = "5%";
-            //         document.getElementById('ima1').style.top = "1%";
-            //         document.getElementById('ima2').style.top = "25%";
-            //         document.getElementById('ima3').style.top = "50%";
-            //         document.getElementById('ima4').style.top = "75%";
-        
-            //     } else {
-            //         document.getElementById('ima1').style.left = "-100%";
-            //         document.getElementById('ima2').style.left = "-100%";
-            //         document.getElementById('ima3').style.left = "-100%";
-            //         document.getElementById('ima4').style.left = "-100%";
-            //     }
-            // } else if (screenX >= 934 && screenX <= 536) {
-            //     if (scrollY >= 4700 && scrollY <= 5300) {
-            //         document.getElementById('ima1').style.left = "1%";
-            //         document.getElementById('ima2').style.left = "51%";
-            //         document.getElementById('ima3').style.left = "1%";
-            //         document.getElementById('ima4').style.left = "51%";
-            //         document.getElementById('ima1').style.top = "1%";
-            //         document.getElementById('ima2').style.top = "1%";
-            //         document.getElementById('ima3').style.top = "50%";
-            //         document.getElementById('ima4').style.top = "50%";
-        
-            //     } else {
-            //         document.getElementById('ima1').style.left = "-100%";
-            //         document.getElementById('ima2').style.left = "-100%";
-            //         document.getElementById('ima3').style.left = "-100%";
-            //         document.getElementById('ima4').style.left = "-100%";
-            //     }
-            // } else {
-            //     if (scrollY >= 4100 && scrollY <= 5100) {
-            //         document.getElementById('ima1').style.left = "1%";
-            //         document.getElementById('ima2').style.left = "26%";
-            //         document.getElementById('ima3').style.left = "51%";
-            //         document.getElementById('ima4').style.left = "76%";
-        
-            //     } else {
-            //         document.getElementById('ima1').style.left = "-100%";
-            //         document.getElementById('ima2').style.left = "-100%";
-            //         document.getElementById('ima3').style.left = "-100%";
-            //         document.getElementById('ima4').style.left = "-100%";
-            //     }
-            // }
         // })
-
-
-        
     })
-    
+    var cambioya;
+    cambioya = false;
+    document.getElementById('cambifondi').addEventListener('click', function () {
+        var corto;
+        corto = document.documentElement;
+            if (cambioya == false) {
+                corto.style.setProperty('--color1', '#dfd9e2');
+                corto.style.setProperty('--color2', '#2a7f62');
+                corto.style.setProperty('--color5', '#c3acce');
+                corto.style.setProperty('--color4', '#89909f');
+                corto.style.setProperty('--color3', '#538083');
+                cambioya = true;
+            } else {
+                corto.style.setProperty('--color1', '#2f3047');
+                corto.style.setProperty('--color4', '#98b9ab');
+                corto.style.setProperty('--color5', '#9bc995');
+                corto.style.setProperty('--color3', '#5171a5');
+                corto.style.setProperty('--color2', '#eef36a');
+                cambioya = false;
+            }
+    })
 
 })
