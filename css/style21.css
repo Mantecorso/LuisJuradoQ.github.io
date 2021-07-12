@@ -252,7 +252,7 @@ main {
 
 #tit2 {
     position: absolute;
-    top: 40%;
+    top: 46%;
     left: -100%;
     transition: .7s ease-in;
 }
@@ -948,10 +948,6 @@ main {
 
 @media screen and (max-width:934px) {
 
-/*     main {
-        height: 40vh !important;
-    } */
-
     main {
         background: linear-gradient(0deg, rgba(65, 206, 231, 0.8),
         rgba(65, 206, 231, 0.6) 10px),
@@ -965,8 +961,7 @@ main {
         position: relative;
         overflow: hidden;
     }
-
-    
+   
     .trabajos {
         display: flex;
         flex-direction: column;
@@ -1040,151 +1035,150 @@ main {
     .enlacesA h2 {
         font-size: 1.4rem;
     }
+        
+    .primeriz {
+        width: 23%;
+    }
 
-    
-.primeriz {
-    width: 23%;
-}
+    .segunder {
+        border-radius: 10px;
+        /* border: 5px solid var(--color3); */
+        width: 75%;
+        height: 90vh;
+        padding: 20px;
+        box-shadow: 10px 10px 10px var(--color3), -10px -10px 10px var(--color3);
+        color: var(--color1);
+        position: relative;
+        overflow: hidden;
+    }
 
-.segunder {
-    border-radius: 10px;
-    /* border: 5px solid var(--color3); */
-    width: 75%;
-    height: 90vh;
-    padding: 20px;
-    box-shadow: 10px 10px 10px var(--color3), -10px -10px 10px var(--color3);
-    color: var(--color1);
-    position: relative;
-    overflow: hidden;
-}
+    .segunder h3 {
+        padding: 20px;
+    }
 
-.segunder h3 {
-    padding: 20px;
-}
+    .botoncomun {
+        cursor: pointer;
+        transition: .6s ease;
+        font-weight: bold;
+    }
 
-.botoncomun {
-    cursor: pointer;
-    transition: .6s ease;
-    font-weight: bold;
-}
+    .botoncomun:hover {
+        box-shadow: 10px 10px 1px var(--color3);
+    }
 
-.botoncomun:hover {
-    box-shadow: 10px 10px 1px var(--color3);
-}
+    #formulario {
+        width: 280px;
+        padding: 20px;
+        background-color: var(--color4);
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px var(--color1);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
 
-#formulario {
-    width: 280px;
-    padding: 20px;
-    background-color: var(--color4);
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px var(--color1);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 20px;
-}
+    #formulario input {
+        padding: 10px;
+    }
 
-#formulario input {
-    padding: 10px;
-}
+    .textoContacto {
+        width: 280px;
+        height: 150px;
+        padding: 10px;
+        background-color: var(--color5);
+        box-shadow: 10px 10px 10px var(--color1);
+    }
 
-.textoContacto {
-    width: 280px;
-    height: 150px;
-    padding: 10px;
-    background-color: var(--color5);
-    box-shadow: 10px 10px 10px var(--color1);
-}
+    .textoContacto2 {
+        width: 280px;
+        height: 150px;
+        padding: 10px;
+        background-color: var(--color1);
+        box-shadow: 10px 10px 10px var(--color5);
+    }
 
-.textoContacto2 {
-    width: 280px;
-    height: 150px;
-    padding: 10px;
-    background-color: var(--color1);
-    box-shadow: 10px 10px 10px var(--color5);
-}
+    .textoContacto p, .textoContacto2 p {
+        width: 100%;
+        text-indent: 10px;
+        padding: 10px;
+        text-align: justify;
+    }
 
-.textoContacto p, .textoContacto2 p {
-    width: 100%;
-    text-indent: 10px;
-    padding: 10px;
-    text-align: justify;
-}
+    #cont1 {
+        position: absolute;
+        top: 90px;
+        left: 120%;
+        transition: .7s ease;
+    }
+    #cont2 {
+        position: absolute;
+        top: 40px;
+        left: 120%;
+        transition: .9s ease;
+    }
+    #cont3 {
+        position: absolute;
+        top: 40px;
+        left: 120%;
+        transition: 1.1s ease;
+    }
+    #cont4 {
+        position: absolute;
+        top: -400px;
+        left: 21%;
+        transition: 1.3s ease;
+        color: var(--color2);
+    }
 
-#cont1 {
-    position: absolute;
-    top: 90px;
-    left: 120%;
-    transition: .7s ease;
-}
-#cont2 {
-    position: absolute;
-    top: 40px;
-    left: 120%;
-    transition: .9s ease;
-}
-#cont3 {
-    position: absolute;
-    top: 40px;
-    left: 120%;
-    transition: 1.1s ease;
-}
-#cont4 {
-    position: absolute;
-    top: -400px;
-    left: 21%;
-    transition: 1.3s ease;
-    color: var(--color2);
-}
+    #op1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: .6s ease;
+        width: 90%;
+        min-height: 90vh;
+        background-color: var(--color1);
+        margin: 10px auto;
+    }
 
-#op1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    transition: .6s ease;
-    width: 90%;
-    min-height: 90vh;
-    background-color: var(--color1);
-    margin: 10px auto;
-}
+    .opizq {
+        width: 100%;
+    }
 
-.opizq {
-    width: 100%;
-}
+    #op2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: 1.0s ease-in;
+        height: 80vh;
+        background-color: cornflowerblue;
+    }
 
-#op2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    transition: 1.0s ease-in;
-    height: 80vh;
-    background-color: cornflowerblue;
-}
+    #opt1 {
+        transition: 1.3s ease-in-out;
+        width: 90%;
+        min-height: 25vh;
+        background-color: crimson;
+    }
 
-#opt1 {
-    transition: 1.3s ease-in-out;
-    width: 90%;
-    min-height: 25vh;
-    background-color: crimson;
-}
+    #opt2 {
+        transition: 1.6s ease-in-out;
+        width: 90%;
+        min-height: 25vh;
+        background-color: darkolivegreen;
+    }
 
-#opt2 {
-    transition: 1.6s ease-in-out;
-    width: 90%;
-    min-height: 25vh;
-    background-color: darkolivegreen;
-}
-
-#opt3 {
-    transition: 1.3s ease-in-out;
-    width: 90%;
-    min-height: 25vh;
-    background-color: deeppink;
-}
+    #opt3 {
+        transition: 1.3s ease-in-out;
+        width: 90%;
+        min-height: 25vh;
+        background-color: deeppink;
+    }
 }
 
 
@@ -1277,10 +1271,6 @@ main {
         font-size: 2rem;
         letter-spacing: 2px;
     }
-/* 
-    main {
-        height: 40vh;
-    } */
 
     h1 {
         font-size: 3rem;
@@ -1379,115 +1369,113 @@ main {
     .enlacesA h2 {
         font-size: 1.3rem;
     }
+        
+    .primeriz {
+        display: none;
+    }
 
-    
-.primeriz {
-    display: none;
-}
+    .segunder {
+        border-radius: 10px;
+        /* border: 5px solid var(--color3); */
+        width: 95%;
+        height: 90vh;
+        padding: 20px;
+        box-shadow: 10px 10px 10px var(--color3), -10px -10px 10px var(--color3);
+        color: var(--color1);
+        position: relative;
+        overflow: hidden;
+    }
 
-.segunder {
-    border-radius: 10px;
-    /* border: 5px solid var(--color3); */
-    width: 95%;
-    height: 90vh;
-    padding: 20px;
-    box-shadow: 10px 10px 10px var(--color3), -10px -10px 10px var(--color3);
-    color: var(--color1);
-    position: relative;
-    overflow: hidden;
-}
+    .segunder h3 {
+        padding: 20px;
+    }
 
-.segunder h3 {
-    padding: 20px;
-}
+    .botoncomun {
+        cursor: pointer;
+        transition: .6s ease;
+        font-weight: bold;
+    }
 
-.botoncomun {
-    cursor: pointer;
-    transition: .6s ease;
-    font-weight: bold;
-}
+    .botoncomun:hover {
+        box-shadow: 10px 10px 1px var(--color3);
+    }
 
-.botoncomun:hover {
-    box-shadow: 10px 10px 1px var(--color3);
-}
+    #formulario {
+        width: 280px;
+        padding: 20px;
+        background-color: var(--color4);
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px var(--color1);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
 
-#formulario {
-    width: 280px;
-    padding: 20px;
-    background-color: var(--color4);
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px var(--color1);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 20px;
-}
+    #formulario input {
+        padding: 10px;
+    }
+    /* // esto no funciona */
+    #formulario:focus-within .textoContacto, .textoContacto2 {
+        opacity: 0;
+    }
 
-#formulario input {
-    padding: 10px;
-}
-/* // esto no funciona */
-#formulario:focus-within .textoContacto, .textoContacto2 {
-    opacity: 0;
-}
+    .textoContacto {
+        width: 280px;
+        height: 150px;
+        padding: 10px;
+        background-color: var(--color5);
+        box-shadow: 10px 10px 10px var(--color1);
+    }
 
-.textoContacto {
-    width: 280px;
-    height: 150px;
-    padding: 10px;
-    background-color: var(--color5);
-    box-shadow: 10px 10px 10px var(--color1);
-}
+    .textoContacto2 {
+        width: 280px;
+        height: 150px;
+        padding: 10px;
+        background-color: var(--color1);
+        box-shadow: 10px 10px 10px var(--color5);
+    }
 
-.textoContacto2 {
-    width: 280px;
-    height: 150px;
-    padding: 10px;
-    background-color: var(--color1);
-    box-shadow: 10px 10px 10px var(--color5);
-}
+    .textoContacto p, .textoContacto2 p {
+        width: 100%;
+        text-indent: 10px;
+        padding: 10px;
+        text-align: justify;
+    }
 
-.textoContacto p, .textoContacto2 p {
-    width: 100%;
-    text-indent: 10px;
-    padding: 10px;
-    text-align: justify;
-}
+    #cont1 {
+        position: absolute;
+        top: 90px;
+        left: 120%;
+        transition: .7s ease;
+    }
+    #cont2 {
+        position: absolute;
+        top: 40px;
+        left: 120%;
+        transition: .9s ease;
+    }
+    #cont3 {
+        position: absolute;
+        top: 40px;
+        left: 120%;
+        transition: 1.1s ease;
+    }
+    #cont4 {
+        position: absolute;
+        top: -400px;
+        left: 21%;
+        transition: 1.3s ease;
+        color: var(--color2);
+    }
 
-#cont1 {
-    position: absolute;
-    top: 90px;
-    left: 120%;
-    transition: .7s ease;
+    .contac55 {
+        width: 240px;
+        height: 50%;
+        box-shadow: 10px 10px 10px gray;
+        background-color: var(--color4);
+        padding: 50px;
+        transition: .7s ease;
+    }
 }
-#cont2 {
-    position: absolute;
-    top: 40px;
-    left: 120%;
-    transition: .9s ease;
-}
-#cont3 {
-    position: absolute;
-    top: 40px;
-    left: 120%;
-    transition: 1.1s ease;
-}
-#cont4 {
-    position: absolute;
-    top: -400px;
-    left: 21%;
-    transition: 1.3s ease;
-    color: var(--color2);
-}
-
-.contac55 {
-    width: 240px;
-    height: 50%;
-    box-shadow: 10px 10px 10px gray;
-    background-color: var(--color4);
-    padding: 50px;
-    transition: .7s ease;
-}
-}
-

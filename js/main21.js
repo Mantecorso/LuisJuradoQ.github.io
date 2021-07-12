@@ -142,8 +142,6 @@ window.addEventListener('load', function () {
         poner1 = false;
     })
 
-
-
     if (window.screen.width < 935) {
 
             //para tamaño tablet y movil 
@@ -152,7 +150,7 @@ window.addEventListener('load', function () {
 
                 if (scrollY >= 200 && scrollY <= 550) {
                     //titulo diseño web
-                    document.getElementById('tit2').style.left = "10%";
+                    document.getElementById('tit2').style.left = "5%";
                 } else {
                     document.getElementById('tit2').style.left = "-100%";
                 }
