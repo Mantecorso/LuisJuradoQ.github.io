@@ -1,4 +1,7 @@
+alert('Tu pantalla mide'+this.screen.width);
+
 window.addEventListener('load', function () {
+    
     // menu navegador movil
     var poner1;
     poner1 = false;
@@ -23,6 +26,8 @@ window.addEventListener('load', function () {
             poner1 = true;
         } else {
             document.getElementById('menu2').style.left ="155%";
+            document.getElementById('menu222').style.display = "block";
+            document.getElementById('menu111').style.display = "none";
             poner1 = false;
         }
     })
@@ -82,7 +87,7 @@ window.addEventListener('load', function () {
 
     document.getElementById('irdos').addEventListener('click', function () {
         window.scroll({
-            top: 1730,
+            top: 1770,
             left: 0,
             behavior: "smooth"
         });
@@ -100,7 +105,7 @@ window.addEventListener('load', function () {
     
     document.getElementById('ir1uno').addEventListener('click', function () {
         window.scroll({
-            top: 4400,
+            top: 3900,
             left: 0,
             behavior: "smooth"
         });
@@ -112,7 +117,7 @@ window.addEventListener('load', function () {
 
     document.getElementById('ir2dos').addEventListener('click', function () {
         window.scroll({
-            top: 1390,
+            top: 1010,
             left: 0,
             behavior: "smooth"
         });
@@ -125,7 +130,7 @@ window.addEventListener('load', function () {
 
     document.getElementById('ir3tres').addEventListener('click', function () {
         window.scroll({
-            top: 2800,
+            top: 2500,
             left: 0,
             behavior: "smooth"
         });
@@ -135,8 +140,47 @@ window.addEventListener('load', function () {
         poner1 = false;
     })
 
-     window.addEventListener('scroll', function () {
-         if (scrollY >= 400 && scrollY <= 1100) {
+
+
+    if (window.screenX.width < 935) {
+
+            //para tamaño tablet y movil
+            window.addEventListener('scroll', function () {
+                if (scrollY >= 200 && scrollY <= 550) {
+                    //titulo diseño web
+                    document.getElementById('tit2').style.left = "10%";
+                } else {
+                    document.getElementById('tit2').style.left = "-100%";
+                }
+                if (scrollY >= 970 && scrollY <= 1700) {
+                    alert('hola caracola');
+                    //trabajos
+                    document.getElementById('trab2').style.opacity = "1";
+                } else {
+                    document.getElementById('trab2').style.opacity = "0";
+                }
+        
+                if (scrollY >= 3700 && scrollY <= 4600) {
+                    //quiensoy
+                    document.getElementById('ima1').style.left = "1%";
+                } else {
+                    document.getElementById('ima1').style.left = "-100%";
+                }
+        
+                if (scrollY >= 2400 && scrollY <= 2933) {
+                    //contacto
+                    document.getElementById('nuevo2').style.left = "15%";
+                } else {
+                    document.getElementById('nuevo2').style.left = "-100%";
+                }
+            })
+
+    } else {
+
+            // movimiento de divs e imagenes segun el scroll tamaño grande
+
+        window.addEventListener('scroll', function () {
+            if (scrollY >= 400 && scrollY <= 1100) {
             document.getElementById('tit2').style.left = "10%";
         } else {
             document.getElementById('tit2').style.left = "-100%";
@@ -146,33 +190,29 @@ window.addEventListener('load', function () {
         } else {
             document.getElementById('trab2').style.opacity = "0";
         }
-
+    
         if (scrollY >= 4300 && scrollY <= 4900) {
             document.getElementById('ima1').style.left = "1%";
             document.getElementById('ima2').style.left = "26%";
             document.getElementById('ima3').style.left = "51%";
             document.getElementById('ima4').style.left = "76%";
-
+    
         } else {
             document.getElementById('ima1').style.left = "-100%";
             document.getElementById('ima2').style.left = "-100%";
             document.getElementById('ima3').style.left = "-100%";
             document.getElementById('ima4').style.left = "-100%";
         }
-
+    
         if (scrollY >= 2800 && scrollY <= 3333) {
             document.getElementById('nuevo2').style.left = "15%";
         } else {
             document.getElementById('nuevo2').style.left = "-100%";
         }
-
-        // if (screenY >= 935) {
-        //     if (scrollY >= 1800 && scrollY <= 3150) {
-
-        // })
     })
+    }
 
-//cambio colores de fondo, claro, oscuro
+//cambio colores de fondo, claro oscuro
 
     var cambioya;
     cambioya = false;
