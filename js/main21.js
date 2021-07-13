@@ -155,7 +155,7 @@ window.addEventListener('load', function () {
                     document.getElementById('tit2').style.left = "-100%";
                 }
                 7
-                if (scrollY >= 970 && scrollY <= 1700) {
+                if (scrollY >= 970 && scrollY <= 1900) {
                     //alert('hola caracola');
                     //trabajos
                     document.getElementById('trab2').style.opacity = "1";
@@ -163,14 +163,14 @@ window.addEventListener('load', function () {
                     document.getElementById('trab2').style.opacity = "0";
                 }
         
-                if (scrollY >= 3700 && scrollY <= 4600) {
+                if (scrollY >= 3700 && scrollY <= 4200) {
                     //quiensoy
                     document.getElementById('ima1').style.left = "5%";
                 } else {
                     document.getElementById('ima1').style.left = "-100%";
                 }
         
-                if (scrollY >= 2400 && scrollY <= 2933) {
+                if (scrollY >= 2400 && scrollY <= 2833) {
                     //contacto
                     document.getElementById('nuevo2').style.left = "15%";
                 } else {
